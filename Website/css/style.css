@@ -79,3 +79,22 @@ nav ul li p {
 .nav_contact p {
     top: 5vw;
 }
+
+.main_text {
+    font-family: NOVA;
+    font-size: 5em;
+    display: block;
+    width: 30vw;
+    line-height: 0.6em;
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+}
+
+.main_text_1 {
+    color: #9b0408;
+}
+
+.main_text_2 {
+    color: #084e96;
+}
