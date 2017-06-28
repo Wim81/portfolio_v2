@@ -43,7 +43,26 @@
 
 <body>
 
-<div class="main_area"></div>
+<div class="main_area">
+
+    <nav>
+        <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
+        <ul>
+            <li class="nav_work"><p>work</p></li>
+            <li class="nav_about"><p>about</p></li>
+            <li class="nav_contact"><p>contact</p></li>
+        </ul>
+    </nav>
+
+    <div class="main_text">
+
+        <div class="main_text_1">Wim Verpoorten</div>
+        <div class="main_text_2">Web Developer</div>
+
+    </div>
+
+</div>
+
 
 <script src="js/script.js"></script>
 

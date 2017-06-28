@@ -16,8 +16,7 @@ body {
     width: calc(100vw - 40px);
     height: calc(100vh - 40px);
     background-color: transparent;
-    /*  border was origineel 2px, misschien nog terugzetten later  */
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     /*  gewone gradient valt hier ook te overwegen, maar dit was het originele idee  */
     border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;
@@ -26,4 +25,57 @@ body {
     /*  positions reageren nog niet goed bij resizen, nog herzien  */
     background-position-x: -37vw, 54vw;
     background-position-y: 1vh, 1vh;
+}
+
+nav ul li {
+    width: 30vw;
+    min-width: 200px;
+    height: 30vw;
+    transform: rotate(15deg);
+    margin: 0 auto;
+}
+
+nav ul li p {
+    transform: rotate(-15deg);
+    display: block;
+    position: relative;
+    top: 20vw;
+    text-align: center;
+    font-family: NOVA;
+    font-size: 2.5em;
+}
+
+.nav_work {
+    background-color: #084e96;
+    color: #e7e7e7;
+    position: absolute;
+    top: -20vw;
+    left: 35vw;
+}
+
+.nav_about{
+    background-color: #e7e7e7;
+    color: #084e96;
+    border: 2px solid #084e96;
+    width: 20vw;
+    height: 12vw;
+    position: absolute;
+    top: 50vw;
+    left: 43vw;
+}
+
+.nav_about p {
+    top: 3vw;
+}
+
+.nav_contact {
+    background-color: #9b0408;
+    color: #e7e7e7;
+    position: absolute;
+    bottom: -20vw;
+    left: 35vw;
+}
+
+.nav_contact p {
+    top: 5vw;
 }
