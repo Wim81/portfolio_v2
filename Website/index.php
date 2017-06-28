@@ -1,6 +1,6 @@
 <?php
 
-echo "hey there!";
+
 
 ?>
 
@@ -43,6 +43,7 @@ echo "hey there!";
 
 <body>
 
+<div class="main_area"></div>
 
 <script src="js/script.js"></script>
 

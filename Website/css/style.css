@@ -7,3 +7,18 @@
 body {
     background-color: #e7e7e7;
 }
+
+.main_area {
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    background-color: transparent;
+    /*  border was origineel 2px, misschien nog terugzetten later  */
+    border: 5px solid transparent;
+    /*  gewone gradient valt hier ook te overwegen, maar dit was het originele idee  */
+    border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
+    border-image-slice: 1;
+}
