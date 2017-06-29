@@ -27,6 +27,17 @@ body {
     background-position-y: 1vh, 1vh;
 }
 
+.white_border {
+    box-sizing: border-box;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    background-color: transparent;
+    border: 3px solid #e7e7e7;
+}
+
 nav ul li {
     width: 30vw;
     min-width: 200px;
@@ -98,7 +109,7 @@ nav ul li p {
 .main_text_2 {
     color: #084e96;
 }
-
+/*
 .whiteline {
     background-color: #e7e7e7;
     width: 30vw;
@@ -119,3 +130,5 @@ nav ul li p {
     top: 74vw;
     left: 4vw;
 }
+*/
+

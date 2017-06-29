@@ -53,10 +53,10 @@
             <li class="nav_contact"><p>contact</p></li>
         </ul>
     </nav>
-
+    <!--
     <div class="whiteline" id="whiteline_work"></div>
     <div class="whiteline" id="whiteline_contact"></div>
-
+    -->
     <div class="main_text">
 
         <div class="main_text_1">Wim Verpoorten</div>
@@ -66,6 +66,7 @@
 
 </div>
 
+<div class="white_border"></div>
 
 <script src="js/script.js"></script>
 
