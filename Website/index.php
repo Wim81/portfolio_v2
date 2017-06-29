@@ -43,6 +43,8 @@
 
 <body>
 
+<div class="bg_animation"></div>
+
 <div class="main_area">
 
     <nav>
@@ -65,6 +67,7 @@
     </div>
 
 </div>
+
 <!--
 <div class="white_border"></div>
 -->

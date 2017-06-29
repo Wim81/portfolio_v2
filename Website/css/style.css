@@ -10,6 +10,7 @@ body {
 }
 
 .main_area {
+    /*visibility: hidden;*/
     box-sizing: border-box;
     position: relative;
     top: 20px;
@@ -27,6 +28,42 @@ body {
     background-position: -250px 223px, right -260px top 223px;
     background-color: #e7e7e7;
     background-blend-mode: multiply;
+}
+
+@keyframes animation {
+    0%   {opacity:0; transform:translateX(0px);}
+    70%   {opacity:1; transform:translateX(0px);}
+    71%   {opacity:0; transform:translateX(0px);}
+    72%   {opacity:1; transform:translateX(0px);}
+    73%   {opacity:0; transform:translateX(0px);}
+    77%   {opacity:1; transform:translateX(0px);}
+    85%   {opacity:1; transform:translateX(10px);}
+    95%   {opacity:1; transform:translateX(0px);}
+    98%   {opacity:0; transform:translateX(0px);}
+    99%   {opacity:1; transform:translateX(0px);}
+    100%   {opacity:0; transform:translateX(0px);}
+}
+
+.bg_animation {
+    box-sizing: border-box;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    background-color: transparent;
+    border: 3px solid transparent;
+    /*border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
+    border-image-slice: 1;*/
+    background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
+    background-repeat: no-repeat;
+    background-size: 530px 530px, 530px 530px;
+    background-position: -250px 223px, right -260px top 223px;
+    background-color: transparent;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
 }
 
 /*
