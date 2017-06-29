@@ -28,6 +28,7 @@ body {
     background-position-y: 1vh, 1vh;
 }
 
+/*
 .white_border {
     box-sizing: border-box;
     position: fixed;
@@ -38,6 +39,7 @@ body {
     background-color: transparent;
     border: 3px solid #e7e7e7;
 }
+*/
 
 nav ul li {
     width: 30vw;

@@ -65,9 +65,9 @@
     </div>
 
 </div>
-
+<!--
 <div class="white_border"></div>
-
+-->
 <script src="js/script.js"></script>
 
 </body>
