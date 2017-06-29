@@ -32,7 +32,7 @@
     to do's: 
     * de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
     * van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
-    * achtergrond images worden nog niet netjes getoond, ofwel met blend mode oplossen ofwel nieuwe versies van afbeeldingen maken
+    * **OK** achtergrond images worden nog niet netjes getoond, ofwel met blend mode oplossen ofwel nieuwe versies van afbeeldingen maken
     * **OK** achtergrond images positioneren ook nog niet goed, los op
     * animatie achtergrond images (pop-up / pop-up / move bit to right en back / pop-up)
     * animatie links nav (bij hover: hele div invert kleuren, lijntje rond knop die linksonder begint en dan rond gaat. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)

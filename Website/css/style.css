@@ -21,10 +21,12 @@ body {
     /*  gewone gradient valt hier ook te overwegen, maar dit was het originele idee  */
     border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;
-    background-image: url("../images/bg_image_blue.png"), url("../images/bg_image_red.png");
+    background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
     background-repeat: no-repeat;
     background-size: 530px 530px, 530px 530px;
     background-position: -250px 223px, right -260px top 223px;
+    background-color: #e7e7e7;
+    background-blend-mode: multiply;
 }
 
 /*
