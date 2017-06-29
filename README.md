@@ -34,6 +34,8 @@
     * achtergrond images positioneren ook nog niet goed, los op (eventueel ook met Flexbox? Check out)
     * animatie achtergrond images (pop-up / pop-up / move bit to right en back / pop-up)
     * animatie links nav (bij hover: hele div invert kleuren, lijntje rond knop die linksonder begint en dan rond gaat. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)
+    * main text positionering nog fixen (eventueel door er 4 delen van te maken i.p.v. 2, of per deel in twee delen allicht nog beter)
+    * divs voor de verschillende onderdelen maken, juiste background color geven en al juist laten verschijnen
     
 
 6. programmeren maar (html/css/js/php/db)
