@@ -6,6 +6,7 @@
 
 body {
     background-color: #e7e7e7;
+    overflow: hidden;
 }
 
 .main_area {
