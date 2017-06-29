@@ -27,6 +27,8 @@
 
 5. maak mockup PS (componenten in IL)
 
+6. programmeren maar (html/css/js/php/db)
+
     to do's: 
     * de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
     * van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
@@ -37,8 +39,6 @@
     * main text positionering nog fixen (eventueel door er 4 delen van te maken i.p.v. 2, of per deel in twee delen allicht nog beter)
     * divs voor de verschillende onderdelen maken, juiste background color geven en al juist laten verschijnen
     
-
-6. programmeren maar (html/css/js/php/db)
 
 7. zet erin: site Jef, Galgje, maak modulair
 
