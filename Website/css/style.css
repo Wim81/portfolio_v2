@@ -24,8 +24,7 @@ body {
     background-image: url("../images/bg_image_blue.png"), url("../images/bg_image_red.png");
     background-repeat: no-repeat;
     /*  positions reageren nog niet goed bij resizen, nog herzien  */
-    background-position-x: -37vw, 54vw;
-    background-position-y: 1vh, 1vh;
+    background-position: -360px 10px, right -370px top 10px;
 }
 
 /*
