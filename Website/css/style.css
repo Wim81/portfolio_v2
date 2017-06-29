@@ -23,8 +23,8 @@ body {
     border-image-slice: 1;
     background-image: url("../images/bg_image_blue.png"), url("../images/bg_image_red.png");
     background-repeat: no-repeat;
-    /*  positions reageren nog niet goed bij resizen, nog herzien  */
-    background-position: -360px 10px, right -370px top 10px;
+    background-size: 530px 530px, 530px 530px;
+    background-position: -250px 223px, right -260px top 223px;
 }
 
 /*
@@ -134,3 +134,11 @@ nav ul li p {
 }
 */
 
+
+/*  media query vanaf 640 pixels  */
+@media (min-width: 640px) {
+    .main_area {
+        background-size: initial;
+        background-position: -360px 10px, right -370px top 10px;
+    }
+}
