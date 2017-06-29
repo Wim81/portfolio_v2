@@ -101,16 +101,21 @@ nav ul li p {
 
 .whiteline {
     background-color: #e7e7e7;
-    width: 100%;
+    width: 30vw;
     height: 3px;
-    transform: rotate(-15deg);
+    margin: 0 auto;
 }
 
 #whiteline_work {
-    position: static;
-    top: 20px;
+    width: 31vw;
+    position: relative;
+    top: -3px;
+    left: 1vw;
 }
 
 #whiteline_contact {
-
+    width: 31vw;
+    position: relative;
+    top: 74vw;
+    left: 4vw;
 }
