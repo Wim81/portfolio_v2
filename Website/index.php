@@ -47,6 +47,8 @@
 
 <div class="main_area">
 
+    <div class="bg_animation"></div>
+
     <nav>
         <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
         <ul>
@@ -68,7 +70,7 @@
 
 </div>
 
-<div class="bg_animation"></div>
+
 
 <!--
 <div class="white_border"></div>

@@ -32,6 +32,7 @@ body {
 
 @keyframes animation {
     0%   {opacity:0; transform:translateX(0px);}
+    69%   {opacity:0; transform:translateX(0px);}
     70%   {opacity:1; transform:translateX(0px);}
     71%   {opacity:0; transform:translateX(0px);}
     72%   {opacity:1; transform:translateX(0px);}
@@ -47,12 +48,12 @@ body {
 .bg_animation {
     box-sizing: border-box;
     position: fixed;
-    top: 20px;
-    left: 20px;
-    width: calc(100vw - 40px);
-    height: calc(100vh - 40px);
+    top: 23px;
+    left: 23px;
+    width: calc(100vw - 46px);
+    height: calc(100vh - 46px);
     background-color: transparent;
-    border: 3px solid transparent;
+    border: 0px solid transparent;
     /*border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;*/
     background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
@@ -63,7 +64,7 @@ body {
     animation-name: animation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-
+    overflow: hidden;
 }
 
 /*
