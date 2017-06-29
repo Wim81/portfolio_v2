@@ -42,17 +42,26 @@ body {
 }
 */
 
+nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul li {
     width: 30vw;
-    min-width: 200px;
     height: 30vw;
+    min-width: 200px;
+    min-height: 200px;
     transform: rotate(15deg);
-    margin: 0 auto;
 }
 
 nav ul li p {
+    display: none;
     transform: rotate(-15deg);
-    display: block;
+    /* display: block; */
     position: relative;
     top: 20vw;
     text-align: center;
@@ -63,20 +72,12 @@ nav ul li p {
 .nav_work {
     background-color: #084e96;
     color: #e7e7e7;
-    position: absolute;
-    top: -20vw;
-    left: 35vw;
 }
 
 .nav_about{
     background-color: #e7e7e7;
     color: #084e96;
     border: 2px solid #084e96;
-    width: 20vw;
-    height: 12vw;
-    position: absolute;
-    top: 50vw;
-    left: 43vw;
 }
 
 .nav_about p {
@@ -86,9 +87,6 @@ nav ul li p {
 .nav_contact {
     background-color: #9b0408;
     color: #e7e7e7;
-    position: absolute;
-    bottom: -20vw;
-    left: 35vw;
 }
 
 .nav_contact p {
