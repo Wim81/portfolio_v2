@@ -45,9 +45,10 @@ body {
 nav ul {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 nav ul li {
