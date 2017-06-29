@@ -48,9 +48,9 @@
     <nav>
         <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
         <ul>
-            <li class="nav_work"><p>work</p></li>
+            <li class="nav_work"><p>work</p><div class="whiteline" id="whiteline_work"></div></li>
             <li class="nav_about"><p>about</p></li>
-            <li class="nav_contact"><p>contact</p></li>
+            <li class="nav_contact"><p>contact</p><div class="whiteline" id="whiteline_contact"></div></li>
         </ul>
     </nav>
 
