@@ -351,4 +351,21 @@ nav ul li p {
         width: 373px;
         left: calc(((100vw - 373px)/2) + 1px);
     }
+
+    .main_text {
+        font-size: 5.6em;
+        top: 30vh;
+    }
+
+    .main_text_1a {
+        left: -60px;
+    }
+
+    .main_text_2a {
+        left: 14px;
+    }
+
+    .main_text_2b {
+        left: 50px;
+    }
 }
