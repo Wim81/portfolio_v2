@@ -125,12 +125,21 @@ nav ul li p {
     font-family: NOVA;
     font-size: 2.5em;
 }
-
-.nav_work {
-    background-color: #084e96;
-    color: #e7e7e7;
-}
 */
+.nav_work {
+    fill: #e7e7e7;
+    font-family: NOVA;
+    font-size: 1em;
+}
+
+.st0:hover + .nav_work {
+    fill: #084E96;
+}
+
+.nav_work:hover {
+    fill: #084E96;
+}
+
 #Layer_1 {
     width: 210px;
     position: absolute;

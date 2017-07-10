@@ -29,14 +29,9 @@
 
 6. programmeren maar (html/css/js/php/db)
 
-    to do's: 
-    * **OK** de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
-    * **OK** van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
-    * **OK** achtergrond images worden nog niet netjes getoond, ofwel met blend mode oplossen ofwel nieuwe versies van afbeeldingen maken
-    * **OK** achtergrond images positioneren ook nog niet goed, los op
-    * **OK** animatie achtergrond images (pop-up / pop-up / move bit to right en back / pop-up)
+    to do's:
     * animatie links nav (bij hover: hele div invert kleuren, lijntje rond knop die linksonder begint en dan rond gaat. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)
-    * main text positionering nog fixen (eventueel door er 4 delen van te maken i.p.v. 2, of per deel in twee delen allicht nog beter)
+    * bij work link nog te fixen: hover effect werkt niet als men over .st0 hovert, nog aan te passen (allicht met js), ook het issue met de witte lijn (bij hover hierover vallen effecten weg) allicht met js op te lossen. Tevens spreidt de link zich nog niet uit over heel de div, ook daar zal waarschijnlijk js van pas komen
     * divs voor de verschillende onderdelen maken, juiste background color geven en al juist laten verschijnen
     
 
