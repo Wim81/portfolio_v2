@@ -210,27 +210,24 @@ nav ul li p {
     fill: #9b0408;
 }
 
-/*
-.nav_about{
-    visibility: hidden;
-    background-color: #e7e7e7;
-    color: #084e96;
-    border: 2px solid #084e96;
+
+.nav_about1, .nav_about2 {
+    fill: #084e96;
+    font-size: 1.5em;
 }
 
-.nav_about p {
-    top: 3vw;
+.st2:hover + .nav_about1 {
+    fill: #e7e7e7;
 }
 
-.nav_contact {
-    background-color: #9b0408;
-    color: #e7e7e7;
+.st2b:hover + .nav_about2 {
+    fill: #e7e7e7;
 }
 
-.nav_contact p {
-    top: 5vw;
+.nav_about1:hover, .nav_about2:hover {
+    fill: #e7e7e7;
 }
-*/
+
 .main_text {
     font-family: NOVA;
     font-size: 2.6em;
