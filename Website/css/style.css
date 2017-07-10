@@ -147,6 +147,44 @@ nav ul li p {
     color: #e7e7e7;
 }
 
+#Layer_1 {
+    width: 210px;
+    position: absolute;
+    top: 0px;
+    left: calc((100vw - 210px)/2);
+    display: block;
+}
+
+.st0 {
+    fill: #084E96;
+    cursor: pointer;
+}
+
+.st0:hover {
+    fill: #e7e7e7;
+    stroke: #084E96;
+    stroke-width: 1.6px;
+}
+
+#Layer_2 {
+    width: 210px;
+    position: absolute;
+    bottom: 0px;
+    left: calc((100vw - 210px)/2);
+    display: block;
+}
+
+.st1 {
+    fill: #9b0408;
+    cursor: pointer;
+    stroke-width: 1.6px;
+}
+
+.st1:hover {
+    fill: #e7e7e7;
+    stroke: #9b0408;
+}
+
 .nav_about{
     visibility: hidden;
     background-color: #e7e7e7;
@@ -219,5 +257,25 @@ nav ul li p {
     .bg_animation {
         background-size: initial;
         background-position: -360px 10px, right -370px top 10px;
+    }
+
+    #Layer_1 {
+        width: 420px;
+        top: -40px;
+        left: calc((100vw - 420px)/2);
+    }
+
+    .st0:hover {
+        stroke-width: 0.8px;
+    }
+
+    #Layer_2 {
+        width: 420px;
+        bottom: -40px;
+        left: calc((100vw - 420px)/2);
+    }
+
+    .st1:hover {
+        stroke-width: 0.8px;
     }
 }

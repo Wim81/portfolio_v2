@@ -51,28 +51,42 @@
     <div class="bg_border"></div>
     <div class="bg_border_2"></div>
 
+
+
     <nav>
         <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
+        <!--
         <ul>
             <li class="nav_work"><p>work</p></li>
             <li class="nav_about"><p>about</p></li>
             <li class="nav_contact"><p>contact</p></li>
         </ul>
+        -->
     </nav>
     <!--
     <div class="whiteline" id="whiteline_work"></div>
     <div class="whiteline" id="whiteline_contact"></div>
     -->
+    <!--
     <div class="main_text">
 
         <div class="main_text_1">Wim Verpoorten</div>
         <div class="main_text_2">Web Developer</div>
 
     </div>
+    -->
 
 </div>
 
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
+    <polygon class="st0" points="13.5,0 2.2,42.3 125.3,75.3 145.5,0 "/>
+</svg>
 
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
+    <polygon class="st1" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
+</svg>
 
 
 
