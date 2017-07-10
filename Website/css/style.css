@@ -126,19 +126,6 @@ nav ul li p {
     font-size: 2.5em;
 }
 */
-.nav_work {
-    fill: #e7e7e7;
-    font-family: NOVA;
-    font-size: 1em;
-}
-
-.st0:hover + .nav_work {
-    fill: #084E96;
-}
-
-.nav_work:hover {
-    fill: #084E96;
-}
 
 #Layer_1 {
     width: 210px;
@@ -200,6 +187,29 @@ nav ul li p {
 #Layer_3b {
     display: none;
 }
+
+.nav {
+    fill: #e7e7e7;
+    font-family: NOVA;
+    font-size: 1em;
+}
+
+.st0:hover + .nav_work {
+    fill: #084E96;
+}
+
+.nav_work:hover {
+    fill: #084E96;
+}
+
+.st1:hover + .nav_contact {
+    fill: #9b0408;
+}
+
+.nav_contact:hover {
+    fill: #9b0408;
+}
+
 /*
 .nav_about{
     visibility: hidden;

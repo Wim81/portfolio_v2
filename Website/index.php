@@ -91,14 +91,16 @@
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
         <polygon class="st0" points="13.5,0 2.2,42.3 125.3,75.3 145.5,0 "/>
-        <a class="nav_work" xlink:href="http://www.wimverpoorten.com">
-        <text id="nav_work_text" x="55" y="35">work</text>
+        <a class="nav nav_work" xlink:href="http://www.wimverpoorten.com">
+        <text id="nav nav_work_text" x="58" y="40">work</text>
         </a>
     </svg>
 
     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
         <polygon class="st1" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
+        <a class="nav nav_contact" xlink:href="http://www.wimverpoorten.com">
+        <text id="nav nav_contact_text" x="48" y="50">contact</text>
     </svg>
 
     <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
