@@ -213,4 +213,9 @@ nav ul li p {
         background-size: initial;
         background-position: -360px 10px, right -370px top 10px;
     }
+
+    .bg_animation {
+        background-size: initial;
+        background-position: -360px 10px, right -370px top 10px;
+    }
 }
