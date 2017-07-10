@@ -323,4 +323,14 @@ nav ul li p {
     .st2b:hover {
         fill: #084E96;
     }
+
+    #whiteline_work {
+        width: 373px;
+        left: calc(((100vw - 373px)/2) + 1px);
+    }
+
+    #whiteline_contact {
+        width: 373px;
+        left: calc(((100vw - 373px)/2) + 1px);
+    }
 }

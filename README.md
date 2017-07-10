@@ -31,7 +31,7 @@
 
     to do's: 
     * **OK** de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
-    * van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
+    * **OK** van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
     * **OK** achtergrond images worden nog niet netjes getoond, ofwel met blend mode oplossen ofwel nieuwe versies van afbeeldingen maken
     * **OK** achtergrond images positioneren ook nog niet goed, los op
     * **OK** animatie achtergrond images (pop-up / pop-up / move bit to right en back / pop-up)
