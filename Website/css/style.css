@@ -150,7 +150,7 @@ nav ul li p {
 #Layer_1 {
     width: 210px;
     position: absolute;
-    top: 0px;
+    top: -3px;
     left: calc((100vw - 210px)/2);
     display: block;
 }
@@ -169,7 +169,7 @@ nav ul li p {
 #Layer_2 {
     width: 210px;
     position: absolute;
-    bottom: 0px;
+    bottom: -3px;
     left: calc((100vw - 210px)/2);
     display: block;
 }
