@@ -66,14 +66,28 @@
 
 
 
-    <!--
+
     <div class="main_text">
 
-        <div class="main_text_1">Wim Verpoorten</div>
-        <div class="main_text_2">Web Developer</div>
+        <div class="main_text_1">
+            <div class="main_text_1a">
+                Wim
+            </div>
+            <div class="main_text_1b">
+                Verpoorten
+            </div>
+        </div>
+        <div class="main_text_2">
+            <div class="main_text_2a">
+                Web
+            </div>
+            <div class="main_text_2b">
+                Developer
+            </div>
+        </div>
 
     </div>
-    -->
+
 
 </div>
 

@@ -92,20 +92,7 @@ body {
     border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;
 }
-
 /*
-.white_border {
-    box-sizing: border-box;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: calc(100vw - 40px);
-    height: calc(100vh - 40px);
-    background-color: transparent;
-    border: 3px solid #e7e7e7;
-}
-*/
-
 nav {
     height: 120vh;
     transform: translate(0%, -40vh);
@@ -126,15 +113,12 @@ nav ul {
 nav ul li {
     width: 65%;
     height: 50%;
-    /*min-width: 100px;
-    min-height: 100px;*/
     transform: rotate(15deg);
 }
 
 nav ul li p {
     display: none;
     transform: rotate(-15deg);
-    /* display: block; */
     position: relative;
     top: 20vw;
     text-align: center;
@@ -146,7 +130,7 @@ nav ul li p {
     background-color: #084e96;
     color: #e7e7e7;
 }
-
+*/
 #Layer_1 {
     width: 210px;
     position: absolute;
@@ -207,7 +191,7 @@ nav ul li p {
 #Layer_3b {
     display: none;
 }
-
+/*
 .nav_about{
     visibility: hidden;
     background-color: #e7e7e7;
@@ -227,16 +211,15 @@ nav ul li p {
 .nav_contact p {
     top: 5vw;
 }
-
+*/
 .main_text {
     font-family: NOVA;
-    font-size: 5em;
-    display: block;
-    width: 30vw;
+    font-size: 2.6em;
     line-height: 0.6em;
-    position: absolute;
-    top: 25vh;
-    left: 35vw;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: -6px;
 }
 
 .main_text_1 {
@@ -245,6 +228,21 @@ nav ul li p {
 
 .main_text_2 {
     color: #084e96;
+}
+
+.main_text_1a {
+    position: relative;
+    left: -28px;
+}
+
+.main_text_2a {
+    position: relative;
+    left: 6px;
+}
+
+.main_text_2b {
+    position: relative;
+    left: 23px;
 }
 
 .whiteline {
@@ -267,6 +265,26 @@ nav ul li p {
     display: block;
 }
 
+/*  media query vanaf 380 pixels  */
+@media (min-width: 380px) {
+
+    .main_text {
+        font-size: 3.8em;
+        left: -10px;
+    }
+
+    .main_text_1a {
+        left: -40px;
+    }
+
+    .main_text_2a {
+        left: 10px;
+    }
+
+    .main_text_2b {
+        left: 34px;
+    }
+}
 
 
 /*  media query vanaf 640 pixels  */
