@@ -185,6 +185,29 @@ nav ul li p {
     stroke: #9b0408;
 }
 
+#Layer_3 {
+    width: 125px;
+    position: absolute;
+    bottom: 80px;
+    left: calc((100vw - 105px)/2);
+    display: block;
+}
+
+.st2 {
+    fill: #e7e7e7;
+    stroke: #084E96;
+    stroke-width: 2.6px;
+    cursor: pointer;
+}
+
+.st2:hover {
+    fill: #084E96;
+}
+
+#Layer_3b {
+    display: none;
+}
+
 .nav_about{
     visibility: hidden;
     background-color: #e7e7e7;
@@ -277,5 +300,28 @@ nav ul li p {
 
     .st1:hover {
         stroke-width: 0.8px;
+    }
+
+    #Layer_3 {
+        display: none;
+    }
+
+    #Layer_3b {
+        width: 172px;
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        display: block;
+    }
+
+    .st2b {
+        fill: #e7e7e7;
+        stroke: #084E96;
+        stroke-width: 1.2px;
+        cursor: pointer;
+    }
+
+    .st2b:hover {
+        fill: #084E96;
     }
 }

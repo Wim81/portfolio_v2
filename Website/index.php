@@ -88,7 +88,15 @@
     <polygon class="st1" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
 </svg>
 
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 138.5 93.5" style="enable-background:new 0 0 138.5 93.5;" xml:space="preserve">
+    <rect x="7.2" y="16.8" transform="matrix(0.9659 0.2588 -0.2588 0.9659 14.4481 -16.244)" class="st2" width="123.5" height="59.8"/>
+</svg>
 
+<svg version="1.1" id="Layer_3b" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 91.8 77.4" style="enable-background:new 0 0 91.8 77.4;" xml:space="preserve">
+    <polygon class="st2b" points="91.9,-0.1 13.2,-0.1 1.9,42.2 91.9,66.4 "/>
+</svg>
 
 <!--
 <div class="white_border"></div>
