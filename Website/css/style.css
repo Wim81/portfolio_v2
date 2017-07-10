@@ -25,7 +25,7 @@ body {
     background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
     background-repeat: no-repeat;
     background-size: 530px 530px, 530px 530px;
-    background-position: -250px 223px, right -260px top 223px;
+    background-position: left -250px bottom -55px, right -260px bottom -55px;
     background-color: #e7e7e7;
     background-blend-mode: multiply;
 }
@@ -61,7 +61,7 @@ body {
     background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
     background-repeat: no-repeat;
     background-size: 530px 530px, 530px 530px;
-    background-position: -250px 223px, right -260px top 223px;
+    background-position: left -250px bottom -55px, right -260px bottom -55px;
     background-color: transparent;
     animation-name: animation;
     animation-duration: 20s;
