@@ -246,28 +246,27 @@ nav ul li p {
 .main_text_2 {
     color: #084e96;
 }
-/*
+
 .whiteline {
-    background-color: #e7e7e7;
-    width: 30vw;
     height: 3px;
-    margin: 0 auto;
+    position: absolute;
+    background-color: #e7e7e7;
 }
 
 #whiteline_work {
-    width: 31vw;
-    position: relative;
-    top: -3px;
-    left: 1vw;
+    width: 185.5px;
+    top: 20px;
+    left: calc(((100vw - 186px)/2) + 2.5px);
+    display: block;
 }
 
 #whiteline_contact {
-    width: 31vw;
-    position: relative;
-    top: 74vw;
-    left: 4vw;
+    width: 185.5px;
+    bottom: 20px;
+    left: calc(((100vw - 186px)/2) - 1px);
+    display: block;
 }
-*/
+
 
 
 /*  media query vanaf 640 pixels  */

@@ -63,10 +63,9 @@
         </ul>
         -->
     </nav>
-    <!--
-    <div class="whiteline" id="whiteline_work"></div>
-    <div class="whiteline" id="whiteline_contact"></div>
-    -->
+
+
+
     <!--
     <div class="main_text">
 
@@ -98,9 +97,9 @@
     <polygon class="st2b" points="91.9,-0.1 13.2,-0.1 1.9,42.2 91.9,66.4 "/>
 </svg>
 
-<!--
-<div class="white_border"></div>
--->
+<div class="whiteline" id="whiteline_work"></div>
+<div class="whiteline" id="whiteline_contact"></div>
+
 <script src="js/script.js"></script>
 
 </body>

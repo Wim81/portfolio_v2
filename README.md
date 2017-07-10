@@ -30,7 +30,7 @@
 6. programmeren maar (html/css/js/php/db)
 
     to do's: 
-    * de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
+    * **OK** de nav componenten reageren nog niet goed op resizing, probeer alles eens in Flexbox te doen (plan eerst)
     * van de witte kader moeten enkel de delen die de nav_work en nav_contact divs kruisen getoond worden. Zoek uit. Dit kan ongetwijfeld, en is de cleanste manier van dit te doen...
     * **OK** achtergrond images worden nog niet netjes getoond, ofwel met blend mode oplossen ofwel nieuwe versies van afbeeldingen maken
     * **OK** achtergrond images positioneren ook nog niet goed, los op
