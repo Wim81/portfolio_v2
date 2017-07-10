@@ -67,6 +67,17 @@ body {
     overflow: hidden;
 }
 
+.bg_border {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    border: 20px solid yellow;
+}
+
 /*
 .white_border {
     box-sizing: border-box;

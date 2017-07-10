@@ -48,6 +48,7 @@
 <div class="main_area">
 
     <div class="bg_animation"></div>
+    <div class="bg_border"></div>
 
     <nav>
         <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
@@ -69,6 +70,8 @@
     </div>
 
 </div>
+
+
 
 
 
