@@ -32,16 +32,18 @@ body {
 
 @keyframes animation {
     0%   {opacity:0; transform:translateX(0px);}
-    69%   {opacity:0; transform:translateX(0px);}
-    70%   {opacity:1; transform:translateX(0px);}
-    71%   {opacity:0; transform:translateX(0px);}
-    72%   {opacity:1; transform:translateX(0px);}
-    73%   {opacity:0; transform:translateX(0px);}
-    77%   {opacity:1; transform:translateX(0px);}
-    85%   {opacity:1; transform:translateX(10px);}
-    95%   {opacity:1; transform:translateX(0px);}
-    98%   {opacity:0; transform:translateX(0px);}
-    99%   {opacity:1; transform:translateX(0px);}
+    50%   {opacity:0; transform:translateX(0px);}
+    50.5%   {opacity:1; transform:translateX(0px);}
+    51%   {opacity:0; transform:translateX(0px);}
+    51.5%   {opacity:1; transform:translateX(0px);}
+    52%   {opacity:0; transform:translateX(0px);}
+    52.5%   {opacity:1; transform:translateX(0px);}
+    53%   {opacity:0; transform:translateX(0px);}
+    78%   {opacity:0; transform:translateX(0px);}
+    78.5%   {opacity:1; transform:translateX(0px);}
+    81.5%   {opacity:1; transform:translateX(5px);}
+    84.5%   {opacity:1; transform:translateX(0px);}
+    85%   {opacity:0; transform:translateX(0px);}
     100%   {opacity:0; transform:translateX(0px);}
 }
 
@@ -62,7 +64,7 @@ body {
     background-position: -250px 223px, right -260px top 223px;
     background-color: transparent;
     animation-name: animation;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     overflow: hidden;
 }
