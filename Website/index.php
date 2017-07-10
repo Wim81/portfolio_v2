@@ -49,6 +49,7 @@
 
     <div class="bg_animation"></div>
     <div class="bg_border"></div>
+    <div class="bg_border_2"></div>
 
     <nav>
         <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
