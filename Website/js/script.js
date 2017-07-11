@@ -13,26 +13,16 @@ $(document).ready(function() {
             $(".st0").css("stroke-width", "0.8px");
         }
         $("#nav_work_text").css("fill", "#084E96");
+        $("#whiteline_work").css("display", "none");
     }, function() {
         $(".st0").css("fill", "#084E96");
         $(".st0").css("stroke", "#084E96");
         $(".st0").css("stroke-width", "0px");
         $("#nav_work_text").css("fill", "#e7e7e7");
+        $("#whiteline_work").css("display", "block");
     });
 
     $("#nav_work_text").hover(function() {
-        $(".st0").css("fill", "#e7e7e7");
-        $(".st0").css("stroke", "#084E96");
-        if($(window).width() < 640) {
-            $(".st0").css("stroke-width", "1.6px");
-        } else {
-            $(".st0").css("stroke-width", "0.8px");
-        }
-        $("#nav_work_text").css("fill", "#084E96");
-    }, function() {
-    });
-
-    $("#whiteline_work").hover(function() {
         $(".st0").css("fill", "#e7e7e7");
         $(".st0").css("stroke", "#084E96");
         if($(window).width() < 640) {
@@ -55,26 +45,16 @@ $(document).ready(function() {
             $(".st1").css("stroke-width", "0.8px");
         }
         $("#nav_contact_text").css("fill", "#9b0408");
+        $("#whiteline_contact").css("display", "none");
     }, function() {
         $(".st1").css("fill", "#9b0408");
         $(".st1").css("stroke", "#9b0408");
         $(".st1").css("stroke-width", "0px");
         $("#nav_contact_text").css("fill", "#e7e7e7");
+        $("#whiteline_contact").css("display", "block");
     });
 
     $("#nav_contact_text").hover(function() {
-        $(".st1").css("fill", "#e7e7e7");
-        $(".st1").css("stroke", "#9b0408");
-        if($(window).width() < 640) {
-            $(".st1").css("stroke-width", "1.6px");
-        } else {
-            $(".st1").css("stroke-width", "0.8px");
-        }
-        $("#nav_contact_text").css("fill", "#9b0408");
-    }, function() {
-    });
-
-    $("#whiteline_contact").hover(function() {
         $(".st1").css("fill", "#e7e7e7");
         $(".st1").css("stroke", "#9b0408");
         if($(window).width() < 640) {
