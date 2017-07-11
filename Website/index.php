@@ -104,17 +104,20 @@
     <!--  about link 1 (mobile)  -->
     <svg version="1.1" id="link_about1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 138.5 93.5" style="enable-background:new 0 0 138.5 93.5;" xml:space="preserve">
-        <rect x="7.2" y="16.8" transform="matrix(0.9659 0.2588 -0.2588 0.9659 14.4481 -16.244)" id="link_about1_shape" width="123.5" height="59.8"/>
-            <a class="nav nav_about1" xlink:href="#">
-        <text id="nav_about1_text" x="38" y="56">about</text>
+        <a class="nav nav_about1" xlink:href="#">
+            <rect x="7.2" y="16.8" transform="matrix(0.9659 0.2588 -0.2588 0.9659 14.4481 -16.244)" id="link_about1_shape" width="123.5" height="59.8"/>
+            <text id="nav_about1_text" x="38" y="56">about</text>
+        </a>
     </svg>
 
     <!--  about link 2 (desktop)  -->
     <svg version="1.1" id="link_about2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 91.8 77.4" style="enable-background:new 0 0 91.8 77.4;" xml:space="preserve">
-        <polygon id="link_about2_shape" points="91.9,-0.1 13.2,-0.1 1.9,42.2 91.9,66.4 "/>
-            <a class="nav nav_about2" xlink:href="#">
-        <text id="nav_about2_text" x="20" y="40">about</text>
+        <a class="nav nav_about2" xlink:href="#">
+            <polygon id="link_about2_shape" points="91.9,-0.1 13.2,-0.1 1.9,42.2 91.9,66.4 "/>
+            <text id="nav_about2_text" x="20" y="40">about</text>
+        </a>
+
     </svg>
 
 </nav>

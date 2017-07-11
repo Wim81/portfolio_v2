@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#link_about1_shape").hover(function() {
         $("#link_about1_shape").css({fill: "#084E96", transition: "3s"});
         $("#link_about1_shape").css({stroke: "#e7e7e7", transition: "3s"});
-        $("#link_about1_shape").css({strokeWidth: "0px", transition: "3s"});
+        $("#link_about1_shape").css({strokeWidth: "2.6px", transition: "3s"});
         $("#nav_about1_text").css({fill: "#e7e7e7", transition: "3s"});
     }, function() {}
     );
