@@ -176,7 +176,11 @@ $(document).ready(function() {
             next();
         });
         $("#link_work").delay(0).queue(function (next) {
-            $(this).css({top: "-3px", transition: "3s"});
+            if($(window).width() < 640) {
+                $(this).css({top: "-3px", transition: "3s"});
+            } else {
+                $(this).css({top: "-40px", transition: "3s"});
+            }
             next();
         });
 
@@ -196,7 +200,11 @@ $(document).ready(function() {
             next();
         });
         $("#link_contact").delay(0).queue(function (next) {
-            $(this).css({bottom: "-3px", transition: "3s"});
+            if($(window).width() < 640) {
+                $(this).css({bottom: "-3px", transition: "3s"});
+            } else {
+                $(this).css({bottom: "-40px", transition: "3s"});
+            }
             next();
         });
 
