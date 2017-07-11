@@ -17,46 +17,43 @@ $(document).ready(function() {
     }, function() {
     });
 
+    /* contact link */
+
+    $(".st1").hover(function() {
+        $(".st1").css({fill: "#e7e7e7", transition: "3s"});
+        $(".st1").css({stroke: "#9b0408", transition: "3s"});
+        if($(window).width() < 640) {
+            $(".st1").css({strokeWidth: "1.6px", transition: "0s"});
+        } else {
+            $(".st1").css({strokeWidth: "0.8px", transition: "0s"});
+        }
+        $("#nav_contact_text").css({fill: "#9b0408", transition: "3s"});
+        $("#whiteline_contact").hide("1s");
+    }, function() {
+    });
+
+    /* resetten wanneer terug weg van link */
+
     $(".bg_border").hover(function() {
+
         $(".st0").css({fill: "#084E96", transition: "3s"});
         $(".st0").css({stroke: "#084E96", transition: "3s"});
         $(".st0").css({strokeWidth: "0px", transition: "0s"});
         $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
         $("#whiteline_work").show("1s");
+
+        $(".st1").css({fill: "#9b0408", transition: "3s"});
+        $(".st1").css({stroke: "#9b0408", transition: "3s"});
+        $(".st1").css({strokeWidth: "0px", transition: "0s"});
+        $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
+        $("#whiteline_contact").show("1s");
+
     }, function() {
     });
 
-    /* contact link */
 
-    $(".st1").hover(function() {
-        $(".st1").css("fill", "#e7e7e7");
-        $(".st1").css("stroke", "#9b0408");
-        if($(window).width() < 640) {
-            $(".st1").css("stroke-width", "1.6px");
-        } else {
-            $(".st1").css("stroke-width", "0.8px");
-        }
-        $("#nav_contact_text").css("fill", "#9b0408");
-        $("#whiteline_contact").css("display", "none");
-    }, function() {
-        $(".st1").css("fill", "#9b0408");
-        $(".st1").css("stroke", "#9b0408");
-        $(".st1").css("stroke-width", "0px");
-        $("#nav_contact_text").css("fill", "#e7e7e7");
-        $("#whiteline_contact").css("display", "block");
-    });
 
-    $("#nav_contact_text").hover(function() {
-        $(".st1").css("fill", "#e7e7e7");
-        $(".st1").css("stroke", "#9b0408");
-        if($(window).width() < 640) {
-            $(".st1").css("stroke-width", "1.6px");
-        } else {
-            $(".st1").css("stroke-width", "0.8px");
-        }
-        $("#nav_contact_text").css("fill", "#9b0408");
-    }, function() {
-    });
+
 
     /* about link 1 */
 
