@@ -92,7 +92,7 @@
          viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
         <polygon class="st0" points="13.5,0 2.2,42.3 125.3,75.3 145.5,0 "/>
         <a class="nav nav_work" xlink:href="http://www.wimverpoorten.com">
-        <text id="nav nav_work_text" x="58" y="40">work</text>
+        <text id="nav_work_text" x="58" y="40">work</text>
         </a>
     </svg>
 
@@ -123,7 +123,7 @@
 </nav>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/script.js"></script>
 
 </body>
