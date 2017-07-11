@@ -166,6 +166,44 @@ $(document).ready(function() {
         });
     });
 
+
+    /*  overgang naar about section (mobile)  */
+
+    $("#link_about1_shape").click(function() {
+        $("#link_about1").css({zIndex: "20"});
+        $(".section_about").css({zIndex: "30"});
+        $("#link_about1_shape").css({fill: "#e7e7e7", transition: "3s"});
+        $("#link_about1_shape").css({stroke: "#084E96", transition: "3s"});
+        $("#link_about1_shape").css({strokeWidth: "2.6px", transition: "3s"});
+        $("#nav_about1_text").css({fill: "#084E96", transition: "3s"});
+        $(".section_about").delay(1500).queue(function (next) {
+            $(this).css({left: "0vh", transition: "3s"});
+            next();
+        });
+        $("#link_about1").delay(1500).queue(function (next) {
+            $(this).css({right: "100vw", transition: "3s"});
+            next();
+        });
+    });
+
+    $(".nav_about1").click(function() {
+        $("#link_about1").css({zIndex: "20"});
+        $(".section_about").css({zIndex: "30"});
+        $("#link_about1_shape").css({fill: "#e7e7e7", transition: "3s"});
+        $("#link_about1_shape").css({stroke: "#084E96", transition: "3s"});
+        $("#link_about1_shape").css({strokeWidth: "2.6px", transition: "3s"});
+        $("#nav_about1_text").css({fill: "#084E96", transition: "3s"});
+        $(".section_about").delay(1500).queue(function (next) {
+            $(this).css({left: "0vh", transition: "3s"});
+            next();
+        });
+        $("#link_about1").delay(1500).queue(function (next) {
+            $(this).css({right: "100vw", transition: "3s"});
+            next();
+        });
+    });
+
+
     /*  overgang naar about section (desktop)  */
 
     $("#link_about2_shape").click(function() {
@@ -199,7 +237,6 @@ $(document).ready(function() {
             next();
         });
     });
-
 
 
     /*  overgang van work section terug naar home page  */
@@ -259,7 +296,10 @@ $(document).ready(function() {
         });
 
         if($(window).width() < 640) {
-            console.log("toe doe doet");
+            $("#link_about1").delay(1000).queue(function (next) {
+                $(this).css("z-index", "0");
+                next();
+            });
         } else {
             $("#link_about2").delay(0).queue(function (next) {
                 $(this).css({right: "-3px", transition: "3s"});
