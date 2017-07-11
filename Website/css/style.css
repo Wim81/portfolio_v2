@@ -214,6 +214,8 @@ body {
     background-color: #084E96;
     color: #e7e7e7;
     bottom: 100vh;
+    background-image: url("../images/bg_image_red_v2.png");
+    background-blend-mode: multiply;
 }
 
 .section_contact {
