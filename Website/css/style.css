@@ -10,7 +10,6 @@ body {
 }
 
 .main_area {
-    /*visibility: hidden;*/
     box-sizing: border-box;
     position: relative;
     top: 20px;
@@ -19,7 +18,6 @@ body {
     height: calc(100vh - 40px);
     background-color: transparent;
     border: 3px solid transparent;
-    /*  gewone gradient valt hier ook te overwegen, maar dit was het originele idee  */
     border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;
     background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
@@ -56,8 +54,6 @@ body {
     height: calc(100vh - 46px);
     background-color: transparent;
     border: 0px solid transparent;
-    /*border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
-    border-image-slice: 1;*/
     background-image: url("../images/bg_image_blue_v3.png"), url("../images/bg_image_red_v2.png");
     background-repeat: no-repeat;
     background-size: 530px 530px, 530px 530px;
@@ -92,42 +88,8 @@ body {
     border-image: linear-gradient(0deg, #9b0408 0%, #9b0408 50%, #084e96 50%, #084e96 100%);
     border-image-slice: 1;
 }
-/*
-nav {
-    height: 120vh;
-    transform: translate(0%, -40vh);
-}
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    align-content: space-between;
-    justify-content: center;
-
-}
-
-nav ul li {
-    width: 65%;
-    height: 50%;
-    transform: rotate(15deg);
-}
-
-nav ul li p {
-    display: none;
-    transform: rotate(-15deg);
-    position: relative;
-    top: 20vw;
-    text-align: center;
-    font-family: NOVA;
-    font-size: 2.5em;
-}
-*/
-
-#Layer_1 {
+#link_work {
     width: 210px;
     position: absolute;
     top: -3px;
@@ -135,18 +97,12 @@ nav ul li p {
     display: block;
 }
 
-.st0 {
+#link_work_shape {
     fill: #084E96;
     cursor: pointer;
 }
-/*
-.st0:hover {
-    fill: #e7e7e7;
-    stroke: #084E96;
-    stroke-width: 1.6px;
-}
-*/
-#Layer_2 {
+
+#link_contact {
     width: 210px;
     position: absolute;
     bottom: -3px;
@@ -154,18 +110,13 @@ nav ul li p {
     display: block;
 }
 
-.st1 {
+#link_contact_shape {
     fill: #9b0408;
     cursor: pointer;
     stroke-width: 1.6px;
 }
-/*
-.st1:hover {
-    fill: #e7e7e7;
-    stroke: #9b0408;
-}
-*/
-#Layer_3 {
+
+#link_about1 {
     width: 125px;
     position: absolute;
     bottom: 80px;
@@ -173,18 +124,14 @@ nav ul li p {
     display: block;
 }
 
-.st2 {
+#link_about1_shape {
     fill: #e7e7e7;
     stroke: #084E96;
     stroke-width: 2.6px;
     cursor: pointer;
 }
-/*
-.st2:hover {
-    fill: #084E96;
-}
-*/
-#Layer_3b {
+
+#link_about2 {
     display: none;
 }
 
@@ -193,41 +140,12 @@ nav ul li p {
     font-family: NOVA;
     font-size: 1em;
 }
-/*
-.st0:hover + .nav_work {
-    fill: #084E96;
-}
-
-.nav_work:hover {
-    fill: #084E96;
-}
-
-.st1:hover + .nav_contact {
-    fill: #9b0408;
-}
-
-.nav_contact:hover {
-    fill: #9b0408;
-}
-*/
 
 .nav_about1, .nav_about2 {
     fill: #084e96;
     font-size: 1.5em;
 }
-/*
-.st2:hover + .nav_about1 {
-    fill: #e7e7e7;
-}
 
-.st2b:hover + .nav_about2 {
-    fill: #e7e7e7;
-}
-
-.nav_about1:hover, .nav_about2:hover {
-    fill: #e7e7e7;
-}
-*/
 .main_text {
     font-family: NOVA;
     font-size: 2.6em;
@@ -285,6 +203,7 @@ nav ul li p {
     display: block;
 }
 
+
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {
 
@@ -319,31 +238,23 @@ nav ul li p {
         background-position: -360px 10px, right -370px top 10px;
     }
 
-    #Layer_1 {
+    #link_work {
         width: 420px;
         top: -40px;
         left: calc((100vw - 420px)/2);
     }
-/*
-    .st0:hover {
-        stroke-width: 0.8px;
-    }
-*/
-    #Layer_2 {
+
+    #link_contact {
         width: 420px;
         bottom: -40px;
         left: calc((100vw - 420px)/2);
     }
-/*
-    .st1:hover {
-        stroke-width: 0.8px;
-    }
-*/
-    #Layer_3 {
+
+    #link_about1 {
         display: none;
     }
 
-    #Layer_3b {
+    #link_about2 {
         width: 172px;
         position: absolute;
         top: -3px;
@@ -351,17 +262,13 @@ nav ul li p {
         display: block;
     }
 
-    .st2b {
+    #link_about2_shape {
         fill: #e7e7e7;
         stroke: #084E96;
         stroke-width: 1.2px;
         cursor: pointer;
     }
-/*
-    .st2b:hover {
-        fill: #084E96;
-    }
-*/
+
     #whiteline_work {
         width: 373px;
         left: calc(((100vw - 373px)/2) + 1px);
