@@ -14,6 +14,7 @@ $(document).ready(function() {
         }
         $("#nav_work_text").css({fill: "#084E96", transition: "3s"});
         $("#whiteline_work").hide("1s");
+
     }, function() {
     });
 

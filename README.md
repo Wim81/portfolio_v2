@@ -30,8 +30,7 @@
 6. programmeren maar (html/css/js/php/db)
 
     to do's:
-    * animatie links nav (bij hover: hele div invert kleuren, lijntje rond knop die linksonder begint en dan rond gaat. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)
-    * bij work link nog te fixen: hover effect werkt niet als men over .st0 hovert, nog aan te passen (allicht met js), ook het issue met de witte lijn (bij hover hierover vallen effecten weg) allicht met js op te lossen. Tevens spreidt de link zich nog niet uit over heel de div, ook daar zal waarschijnlijk js van pas komen
+    * ** kan nog later, nu niet essentieel **animatie links nav (bij hover: lijntje rond knop die linksonder begint en dan rond gaat, of enkel underline. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)
     * divs voor de verschillende onderdelen maken, juiste background color geven en al juist laten verschijnen
     
 
