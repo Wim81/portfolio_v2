@@ -208,6 +208,7 @@ $(document).ready(function() {
 
     $("#link_about2_shape").click(function() {
         $("#link_about2").css({zIndex: "20"});
+        $(".section_about").css({zIndex: "30"});
         $("#link_about2_shape").css({fill: "#e7e7e7", transition: "3s"});
         $("#link_about2_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_about2_shape").css({strokeWidth: "1.2px", transition: "3s"});
@@ -224,6 +225,7 @@ $(document).ready(function() {
 
     $(".nav_about2").click(function() {
         $("#link_about2").css({zIndex: "20"});
+        $(".section_about").css({zIndex: "30"});
         $("#link_about2_shape").css({fill: "#e7e7e7", transition: "3s"});
         $("#link_about2_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_about2_shape").css({strokeWidth: "1.2px", transition: "3s"});
