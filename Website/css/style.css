@@ -228,6 +228,27 @@ body {
     left: 100vw;
 }
 
+.exit {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.exit p {
+    box-sizing: border-box;
+    color: #e7e7e7;
+    font-family: NOVA;
+    font-size: 2em;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid #e7e7e7;
+}
+
+.exit p:hover {
+    cursor: pointer;
+    color: #084E96;
+    background-color: #e7e7e7;
+}
+
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {
 

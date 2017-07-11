@@ -157,4 +157,22 @@ $(document).ready(function() {
         });
     });
 
+    /*  overgang van work section terug naar home page  */
+
+    $(".exit_p").click(function() {
+        $("#whiteline_work").show();
+        $(".section_work").delay(0).queue(function (next) {
+            $(this).css({bottom: "100vh", transition: "3s"});
+            next();
+        });
+        $("#link_work").delay(0).queue(function (next) {
+            $(this).css({top: "-3px", transition: "3s"});
+            next();
+        });
+        $("#link_work").delay(1000).queue(function (next) {
+            $(this).css({zIndex: "0"});
+        });
+    });
+
+
 });
