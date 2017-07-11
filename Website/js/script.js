@@ -5,32 +5,24 @@ $(document).ready(function() {
     /* work link */
 
     $(".st0").hover(function() {
-        $(".st0").css({fill: "#e7e7e7", transition: "2s"});
-        $(".st0").css({stroke: "#084E96", transition: "2s"});
+        $(".st0").css({fill: "#e7e7e7", transition: "3s"});
+        $(".st0").css({stroke: "#084E96", transition: "3s"});
         if($(window).width() < 640) {
             $(".st0").css({strokeWidth: "1.6px", transition: "0s"});
         } else {
             $(".st0").css({strokeWidth: "0.8px", transition: "0s"});
         }
-        $("#nav_work_text").css({fill: "#084E96", transition: "2s"});
+        $("#nav_work_text").css({fill: "#084E96", transition: "3s"});
         $("#whiteline_work").hide("1s");
     }, function() {
-        $(".st0").css({fill: "#084E96", transition: "2s"});
-        $(".st0").css({stroke: "#084E96", transition: "2s"});
-        $(".st0").css({strokeWidth: "0px", transition: "0s"});
-        $("#nav_work_text").css({fill: "#e7e7e7", transition: "2s"});
-        $("#whiteline_work").show("1s");
     });
 
-    $("#nav_work_text").hover(function() {
-        $(".st0").css("fill", "#e7e7e7");
-        $(".st0").css("stroke", "#084E96");
-        if($(window).width() < 640) {
-            $(".st0").css("stroke-width", "1.6px");
-        } else {
-            $(".st0").css("stroke-width", "0.8px");
-        }
-        $("#nav_work_text").css("fill", "#084E96");
+    $(".bg_border").hover(function() {
+        $(".st0").css({fill: "#084E96", transition: "3s"});
+        $(".st0").css({stroke: "#084E96", transition: "3s"});
+        $(".st0").css({strokeWidth: "0px", transition: "0s"});
+        $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
+        $("#whiteline_work").show("1s");
     }, function() {
     });
 
