@@ -7,7 +7,11 @@ $(document).ready(function() {
     $(".st0").hover(function() {
         $(".st0").css("fill", "#e7e7e7");
         $(".st0").css("stroke", "#084E96");
-        $(".st0").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st0").css("stroke-width", "1.6px");
+        } else {
+            $(".st0").css("stroke-width", "0.8px");
+        }
         $("#nav_work_text").css("fill", "#084E96");
     }, function() {
         $(".st0").css("fill", "#084E96");
@@ -19,7 +23,11 @@ $(document).ready(function() {
     $("#nav_work_text").hover(function() {
         $(".st0").css("fill", "#e7e7e7");
         $(".st0").css("stroke", "#084E96");
-        $(".st0").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st0").css("stroke-width", "1.6px");
+        } else {
+            $(".st0").css("stroke-width", "0.8px");
+        }
         $("#nav_work_text").css("fill", "#084E96");
     }, function() {
     });
@@ -27,7 +35,11 @@ $(document).ready(function() {
     $("#whiteline_work").hover(function() {
         $(".st0").css("fill", "#e7e7e7");
         $(".st0").css("stroke", "#084E96");
-        $(".st0").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st0").css("stroke-width", "1.6px");
+        } else {
+            $(".st0").css("stroke-width", "0.8px");
+        }
         $("#nav_work_text").css("fill", "#084E96");
     }, function() {
     });
@@ -37,7 +49,11 @@ $(document).ready(function() {
     $(".st1").hover(function() {
         $(".st1").css("fill", "#e7e7e7");
         $(".st1").css("stroke", "#9b0408");
-        $(".st1").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st1").css("stroke-width", "1.6px");
+        } else {
+            $(".st1").css("stroke-width", "0.8px");
+        }
         $("#nav_contact_text").css("fill", "#9b0408");
     }, function() {
         $(".st1").css("fill", "#9b0408");
@@ -49,7 +65,11 @@ $(document).ready(function() {
     $("#nav_contact_text").hover(function() {
         $(".st1").css("fill", "#e7e7e7");
         $(".st1").css("stroke", "#9b0408");
-        $(".st1").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st1").css("stroke-width", "1.6px");
+        } else {
+            $(".st1").css("stroke-width", "0.8px");
+        }
         $("#nav_contact_text").css("fill", "#9b0408");
     }, function() {
     });
@@ -57,7 +77,11 @@ $(document).ready(function() {
     $("#whiteline_contact").hover(function() {
         $(".st1").css("fill", "#e7e7e7");
         $(".st1").css("stroke", "#9b0408");
-        $(".st1").css("stroke-width", "1.6px");
+        if($(window).width() < 640) {
+            $(".st1").css("stroke-width", "1.6px");
+        } else {
+            $(".st1").css("stroke-width", "0.8px");
+        }
         $("#nav_contact_text").css("fill", "#9b0408");
     }, function() {
     });
