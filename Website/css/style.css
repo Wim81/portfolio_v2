@@ -223,9 +223,12 @@ body {
 }
 
 .section_about {
+    box-sizing: border-box;
     background-color: #e7e7e7;
     color: #084E96;
+    top: 0vh;
     left: 100vw;
+    border: 2px solid #084E96;
 }
 
 .exit {
@@ -244,6 +247,11 @@ body {
     transition-duration: 0.6s;
 }
 
+.exit_about {
+    color: #084E96;
+    border: 2px solid #084E96;
+}
+
 .exit_p:hover {
     cursor: pointer;
     transition-duration: 0.6s;
@@ -257,6 +265,11 @@ body {
 .exit_contact:hover {
     color: #9b0408;
     background-color: #e7e7e7;
+}
+
+.exit_about:hover {
+    color: #e7e7e7;
+    background-color: #084E96;
 }
 
 /*  media query vanaf 380 pixels  */
