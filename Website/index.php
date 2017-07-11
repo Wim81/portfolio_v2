@@ -120,17 +120,17 @@
 </nav>
 
 <div class="sectiondiv section_work">
-    <div class="exit exit_work"><p class="exit_p">x</p></div>
+    <div class="exit"><p class="exit_p exit_work">x</p></div>
 
 </div>
 
 <div class="sectiondiv section_contact">
-    <div class="exit exit_contact"><p>x</p></div>
+    <div class="exit"><p class="exit_p exit_contact">x</p></div>
 
 </div>
 
 <div class="sectiondiv section_about">
-    <div class="exit exit_about"><p>x</p></div>
+    <div class="exit exit_about"><p class="exit_p">x</p></div>
 
 </div>
 

@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+
     /* work link hover effect */
 
     $("#link_work_shape").hover(function() {
@@ -16,6 +17,7 @@ $(document).ready(function() {
         $("#whiteline_work").hide("1s");
     }, function() {
     });
+
 
     /* contact link hover effect */
 
@@ -32,6 +34,7 @@ $(document).ready(function() {
     }, function() {
     });
 
+
     /* about link 1 hover effect */
 
     $("#link_about1_shape").hover(function() {
@@ -42,6 +45,7 @@ $(document).ready(function() {
     }, function() {}
     );
 
+
     /* about link 2 hover effect */
 
     $("#link_about2_shape").hover(function() {
@@ -51,6 +55,7 @@ $(document).ready(function() {
         $("#nav_about2_text").css({fill: "#e7e7e7", transition: "3s"});
     }, function() {
     });
+
 
     /* resetten wanneer terug weg van link */
 
@@ -89,6 +94,7 @@ $(document).ready(function() {
     }, function() {
     });
 
+
     /*  overgang naar work section  */
 
     $("#link_work_shape").click(function() {
@@ -125,6 +131,7 @@ $(document).ready(function() {
         });
     });
 
+
     /*  overgang naar contact section  */
 
     $("#link_contact_shape").click(function() {
@@ -159,9 +166,10 @@ $(document).ready(function() {
         });
     });
 
+
     /*  overgang van work section terug naar home page  */
 
-    $(".exit_p").click(function() {
+    $(".exit_work").click(function() {
         $("#whiteline_work").show();
         $(".section_work").delay(0).queue(function (next) {
             $(this).css({bottom: "100vh", transition: "3s"});
@@ -173,6 +181,26 @@ $(document).ready(function() {
         });
 
         $("#link_work").delay(1000).queue(function (next) {
+            $(this).css("z-index", "0");
+            next();
+        });
+    });
+
+
+    /*  overgang van contact section terug naar home page  */
+
+    $(".exit_contact").click(function() {
+        $("#whiteline_contact").show();
+        $(".section_contact").delay(0).queue(function (next) {
+            $(this).css({top: "100vh", transition: "3s"});
+            next();
+        });
+        $("#link_contact").delay(0).queue(function (next) {
+            $(this).css({bottom: "-3px", transition: "3s"});
+            next();
+        });
+
+        $("#link_contact").delay(3000).queue(function (next) {
             $(this).css("z-index", "0");
             next();
         });
