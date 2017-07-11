@@ -159,12 +159,12 @@ nav ul li p {
     cursor: pointer;
     stroke-width: 1.6px;
 }
-
+/*
 .st1:hover {
     fill: #e7e7e7;
     stroke: #9b0408;
 }
-
+*/
 #Layer_3 {
     width: 125px;
     position: absolute;
@@ -179,11 +179,11 @@ nav ul li p {
     stroke-width: 2.6px;
     cursor: pointer;
 }
-
+/*
 .st2:hover {
     fill: #084E96;
 }
-
+*/
 #Layer_3b {
     display: none;
 }
@@ -201,7 +201,7 @@ nav ul li p {
 .nav_work:hover {
     fill: #084E96;
 }
-*/
+
 .st1:hover + .nav_contact {
     fill: #9b0408;
 }
@@ -209,13 +209,13 @@ nav ul li p {
 .nav_contact:hover {
     fill: #9b0408;
 }
-
+*/
 
 .nav_about1, .nav_about2 {
     fill: #084e96;
     font-size: 1.5em;
 }
-
+/*
 .st2:hover + .nav_about1 {
     fill: #e7e7e7;
 }
@@ -227,7 +227,7 @@ nav ul li p {
 .nav_about1:hover, .nav_about2:hover {
     fill: #e7e7e7;
 }
-
+*/
 .main_text {
     font-family: NOVA;
     font-size: 2.6em;
@@ -265,6 +265,10 @@ nav ul li p {
     height: 3px;
     position: absolute;
     background-color: #e7e7e7;
+}
+
+.whiteline:hover {
+    cursor: pointer;
 }
 
 #whiteline_work {
@@ -320,21 +324,21 @@ nav ul li p {
         top: -40px;
         left: calc((100vw - 420px)/2);
     }
-
+/*
     .st0:hover {
         stroke-width: 0.8px;
     }
-
+*/
     #Layer_2 {
         width: 420px;
         bottom: -40px;
         left: calc((100vw - 420px)/2);
     }
-
+/*
     .st1:hover {
         stroke-width: 0.8px;
     }
-
+*/
     #Layer_3 {
         display: none;
     }
@@ -353,11 +357,11 @@ nav ul li p {
         stroke-width: 1.2px;
         cursor: pointer;
     }
-
+/*
     .st2b:hover {
         fill: #084E96;
     }
-
+*/
     #whiteline_work {
         width: 373px;
         left: calc(((100vw - 373px)/2) + 1px);
