@@ -139,13 +139,13 @@ nav ul li p {
     fill: #084E96;
     cursor: pointer;
 }
-
+/*
 .st0:hover {
     fill: #e7e7e7;
     stroke: #084E96;
     stroke-width: 1.6px;
 }
-
+*/
 #Layer_2 {
     width: 210px;
     position: absolute;
@@ -193,7 +193,7 @@ nav ul li p {
     font-family: NOVA;
     font-size: 1em;
 }
-
+/*
 .st0:hover + .nav_work {
     fill: #084E96;
 }
@@ -201,7 +201,7 @@ nav ul li p {
 .nav_work:hover {
     fill: #084E96;
 }
-
+*/
 .st1:hover + .nav_contact {
     fill: #9b0408;
 }
@@ -270,7 +270,7 @@ nav ul li p {
 #whiteline_work {
     width: 185.5px;
     top: 20px;
-    left: calc(((100vw - 186px)/2) + 2.5px);
+    left: calc(((100vw - 185.5px)/2) + 2px);
     display: block;
 }
 
