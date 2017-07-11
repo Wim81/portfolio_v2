@@ -51,17 +51,6 @@
     <div class="bg_border bg_border_1"></div>
     <div class="bg_border bg_border_2"></div>
 
-    <nav>
-        <!--  dit bij gelegenheid misschien nog vervangen door a elementen, we will see  -->
-        <!--
-        <ul>
-            <li class="nav_work"><p>work</p></li>
-            <li class="nav_about"><p>about</p></li>
-            <li class="nav_contact"><p>contact</p></li>
-        </ul>
-        -->
-    </nav>
-
     <div class="main_text">
 
         <div class="main_text_1">
@@ -81,10 +70,10 @@
             </div>
         </div>
 
-    </div>
+    </div>  <!--  einde main text  -->
 
 
-</div>
+</div>  <!--  einde main area  -->
 
 <nav>
 
@@ -92,7 +81,7 @@
     <svg version="1.1" id="link_work" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
 
-        <a class="nav nav_work" xlink:href="http://www.wimverpoorten.com">
+        <a class="nav nav_work" xlink:href="#">
             <polygon id="link_work_shape" points="13.5,0 2.2,42.3 125.3,75.3 145.5,0 "/>
             <text id="nav_work_text" x="58" y="40">work</text>
             <div class="whiteline" id="whiteline_work"></div>
@@ -129,6 +118,10 @@
     </svg>
 
 </nav>
+
+<div class="sectiondiv section_work"></div>
+<div class="sectiondiv section_contact"></div>
+<div class="sectiondiv section_about"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>

@@ -203,6 +203,30 @@ body {
     display: block;
 }
 
+.sectiondiv {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    position: absolute;
+}
+
+.section_work {
+    background-color: #084E96;
+    color: #e7e7e7;
+    bottom: 100vh;
+}
+
+.section_contact {
+    background-color: #9b0408;
+    color: #e7e7e7;
+    top: 100vh;
+}
+
+.section_about {
+    background-color: #e7e7e7;
+    color: #084E96;
+    left: 100vw;
+}
 
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {
