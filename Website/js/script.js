@@ -1,11 +1,13 @@
 /*  javascript file portfolio v2  */
 
+// jQuery.Color.hook( "fill stroke" );
+
 $(document).ready(function() {
 
     /* work link */
 
     $(".st0").hover(function() {
-        $(".st0").css("fill", "#e7e7e7");
+        $(".st0").css({fill: "#e7e7e7", transition: "2.0s"});
         $(".st0").css("stroke", "#084E96");
         if($(window).width() < 640) {
             $(".st0").css("stroke-width", "1.6px");

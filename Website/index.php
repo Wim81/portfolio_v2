@@ -123,11 +123,11 @@
             <a class="nav nav_about2" xlink:href="http://www.wimverpoorten.com">
         <text id="nav_about2_text" x="20" y="40">about</text>
     </svg>
-    
+
 </nav>
 
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
 <script src="js/script.js"></script>
 
 </body>
