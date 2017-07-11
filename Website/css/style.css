@@ -234,19 +234,21 @@ body {
     padding: 20px;
 }
 
-.exit p {
+.exit_p {
     box-sizing: border-box;
     color: #e7e7e7;
     font-family: NOVA;
     font-size: 2em;
     padding: 0px 10px 10px 10px;
     border: 2px solid #e7e7e7;
+    transition-duration: 0.6s;
 }
 
-.exit p:hover {
+.exit_p:hover {
     cursor: pointer;
     color: #084E96;
     background-color: #e7e7e7;
+    transition-duration: 0.6s;
 }
 
 /*  media query vanaf 380 pixels  */

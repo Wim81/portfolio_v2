@@ -114,11 +114,13 @@ $(document).ready(function() {
         $("#link_work_shape").css({strokeWidth: "0px", transition: "3s"});
         $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
         $(".section_work").delay(1500).queue(function (next) {
-         $(this).css({bottom: "0vh", transition: "3s"});
-         next();
+            $(this).css({bottom: "0vh", transition: "3s"});
+            console.log("kunta kinte");
+            next();
          });
         $("#link_work").delay(1500).queue(function (next) {
             $(this).css({top: "100vh", transition: "3s"});
+            console.log("yo yo yo my brother");
             next();
         });
     });
@@ -169,8 +171,10 @@ $(document).ready(function() {
             $(this).css({top: "-3px", transition: "3s"});
             next();
         });
+
         $("#link_work").delay(1000).queue(function (next) {
-            $(this).css({zIndex: "0"});
+            $(this).css("z-index", "0");
+            next();
         });
     });
 
