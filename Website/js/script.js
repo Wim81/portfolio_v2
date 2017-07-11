@@ -66,7 +66,7 @@ $(document).ready(function() {
 
         /* contact link reset */
 
-        $("#link_contact_shape").css({fill: "#9b0408", transition: "3s"});
+        $("#link_contact_shape").css({fill: "v", transition: "3s"});
         $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
         $("#link_contact_shape").css({strokeWidth: "0px", transition: "0s"});
         $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
@@ -88,6 +88,8 @@ $(document).ready(function() {
 
     }, function() {
     });
+
+    /*  overgang naar work section  */
 
     $("#link_work_shape").click(function() {
         $("#link_work").css({zIndex: "20"});
@@ -117,6 +119,40 @@ $(document).ready(function() {
          });
         $("#link_work").delay(1500).queue(function (next) {
             $(this).css({top: "100vh", transition: "3s"});
+            next();
+        });
+    });
+
+    /*  overgang naar contact section  */
+
+    $("#link_contact_shape").click(function() {
+        $("#link_contact").css({zIndex: "20"});
+        $("#link_contact_shape").css({fill: "#9b0408", transition: "3s"});
+        $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
+        $("#link_contact_shape").css({strokeWidth: "0px", transition: "3s"});
+        $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
+        $(".section_contact").delay(1500).queue(function (next) {
+            $(this).css({top: "0vh", transition: "3s"});
+            next();
+        });
+        $("#link_contact").delay(1500).queue(function (next) {
+            $(this).css({bottom: "100vh", transition: "3s"});
+            next();
+        });
+    });
+
+    $(".nav_contact").click(function() {
+        $("#link_contact").css({zIndex: "20"});
+        $("#link_contact_shape").css({fill: "#9b0408", transition: "3s"});
+        $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
+        $("#link_contact_shape").css({strokeWidth: "0px", transition: "3s"});
+        $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
+        $(".section_contact").delay(1500).queue(function (next) {
+            $(this).css({top: "0vh", transition: "3s"});
+            next();
+        });
+        $("#link_contact").delay(1500).queue(function (next) {
+            $(this).css({bottom: "100vh", transition: "3s"});
             next();
         });
     });
