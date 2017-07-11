@@ -30,8 +30,7 @@
 6. programmeren maar (html/css/js/php/db)
 
     to do's:
-    * ** kan nog later, nu niet essentieel **animatie links nav (bij hover: lijntje rond knop die linksonder begint en dan rond gaat, of enkel underline. Reverse wanneer hover off) (bij klik: knop even inverten voor zolang klik)
-    * divs voor de verschillende onderdelen maken, juiste background color geven en al juist laten verschijnen
+    * hover effect bij work link gaat pas weg als men van het vierkant weggaat, niet van de shape zelf. Nog bij te werken. Geldt ook voor andere links trouwens.
     
 
 7. zet erin: site Jef, Galgje, maak modulair
