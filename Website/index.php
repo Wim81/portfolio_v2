@@ -162,12 +162,15 @@
         </div>
 
         <div class="content_about">
+
             <div id="about_text_1" class="about_item">
                 <p>Hi, my name is Wim, and I am currently a student, looking forward to becoming a professional web developer. I am currently 35 years old. Before I returned to studying, I have worked for a Swiss pharmaceutical company for just over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why I am changing direction now.</p>
                 <br>
                 <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
             </div>
-            <img src="images/bg_image_blue_on_white.jpg" class="about_item" id="about_image">
+
+            <div class="about_item" id="about_image"></div>
+
             <div id="about_text_2" class="about_item">
                 <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
                     <br>
@@ -175,6 +178,7 @@
                 <br>
                 <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
             </div>
+
         </div>  <!--  einde about content  -->
 
     </div>  <!--  einde about inner section  -->
