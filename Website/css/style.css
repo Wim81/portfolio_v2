@@ -203,6 +203,19 @@ body {
     display: block;
 }
 
+.logo {
+    width: 75px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: none;
+}
+
+.section_about img {
+    right: auto;
+    left: 5px;
+}
+
 .sectiondiv {
     height: 100vh;
     width: 100vw;
@@ -340,6 +353,12 @@ body {
     }
 }
 
+/*  media query vanaf 450 pixels  */
+@media (min-width: 450px) {
+    .logo {
+        display: block;
+    }
+}
 
 /*  media query vanaf 640 pixels  */
 @media (min-width: 640px) {

@@ -72,6 +72,8 @@
 
     </div>  <!--  einde main text  -->
 
+    <!-- ach, let's have a logo, shall we? -->
+    <img src="images/logo_gradient1.png" class="logo">
 
 </div>  <!--  einde main area  -->
 
@@ -122,21 +124,25 @@
 
 </nav>
 
+
 <div class="sectiondiv section_work">
     <div class="sectiondiv_inner section_work_inner">
         <div class="exit"><p class="exit_p exit_work"></p></div>
+        <img src="images/logo_white1.png" class="logo">
     </div>
 </div>
 
 <div class="sectiondiv section_contact">
     <div class="sectiondiv_inner section_contact_inner">
         <div class="exit"><p class="exit_p exit_contact"></p></div>
+        <img src="images/logo_white1.png" class="logo">
     </div>
 </div>
 
 <div class="sectiondiv section_about">
     <div class="sectiondiv_inner section_about_inner">
         <div class="exit"><p class="exit_p exit_about"></p></div>
+        <img src="images/logo_blue1.png" class="logo">
     </div>
 </div>
 
