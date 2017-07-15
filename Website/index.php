@@ -161,27 +161,29 @@
             <p class="exit_p exit_about"></p>
         </div>
 
-        <div class="content_about">
+        <div class="content_about_wrapper">
+            <div class="content_about">
 
-            <div id="about_text_1" class="about_item">
-                <p>Hi, my name is Wim, and I am currently a student, looking forward to becoming a professional web developer. I am currently 35 years old. Before I returned to studying, I have worked for a Swiss pharmaceutical company for just over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why I am changing direction now.</p>
-                <br>
-                <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
-            </div>
-
-            <img src="images/bg_image_blue_on_white2.jpg" class="about_item" id="about_image">
-
-            <div id="about_text_2" class="about_item">
-                <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
+                <div id="about_text_1" class="about_item">
+                    <p>Hi, my name is Wim, and I am currently a student, looking forward to becoming a professional web developer. I am currently 35 years old. Before I returned to studying, I have worked for a Swiss pharmaceutical company for just over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why I am changing direction now.</p>
                     <br>
-                    <p>I mainly like all things front-end: HTML, CSS/Sass, JS/Jquery. From a back-end point of view, I like working with PHP. Designing is fun as well. Even though I am not a trained illustrator, I know my way around Photoshop and Illustrator and I am always keen to learn new things.</p>
-                <br>
-                <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
-            </div>
+                    <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
+                </div>
 
-        </img>  <!--  einde about content  -->
+                <img src="images/bg_image_blue_on_white2.jpg" class="about_item" id="about_image">
 
-    </div>  <!--  einde about inner section  -->
+                <div id="about_text_2" class="about_item">
+                    <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
+                        <br>
+                        <p>I mainly like all things front-end: HTML, CSS/Sass, JS/Jquery. From a back-end point of view, I like working with PHP. Designing is fun as well. Even though I am not a trained illustrator, I know my way around Photoshop and Illustrator and I am always keen to learn new things.</p>
+                    <br>
+                    <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
+                </div>
+
+            </img>  <!--  einde about content  -->
+
+            </div>  <!--  einde about inner section  -->
+        </div>  <!--  einde van de wrapper  -->
 </div>  <!--  einde about section  -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
