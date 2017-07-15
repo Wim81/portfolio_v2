@@ -296,11 +296,12 @@ body {
 
 .page_title {
     font-family: NOVA;
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
     color: #e7e7e7;
     position: relative;
-    top: -10px;
+    top: 10px;
+    left: 20px;
 }
 
 #page_title_about {
@@ -343,6 +344,32 @@ body {
     background-color: #084E96;
 }
 
+.content_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    background-color: #e7e7e7;
+    height: calc(100vh - 224px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.about_item {
+    padding: 20px;
+}
+
+#about_text_1, #about_text_2 {
+    font-family: Cabin;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+#about_image {
+    width: calc(100vw - 220px);
+    
+}
 
 
 /*  media query vanaf 380 pixels  */
