@@ -211,6 +211,17 @@ body {
     display: none;
 }
 
+.page_title {
+    font-family: NOVA;
+    font-size: 2.6em;
+    color: #e7e7e7;
+    padding: 20px;
+}
+
+#page_title_about {
+    color: #084E96;
+}
+
 .section_about img {
     right: auto;
     left: 5px;
