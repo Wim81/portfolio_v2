@@ -257,36 +257,37 @@ body {
 
 .exit_p {
     box-sizing: border-box;
-    color: #e7e7e7;
-    font-family: NOVA;
-    font-size: 2em;
-    padding: 0px 10px 10px 10px;
-    border: 2px solid #e7e7e7;
-    transition-duration: 0.6s;
+    width: 44px;
+    height: 44px;
+    transition-duration: 0.1s;
+    background-image: url("../images/exit_button_1d_white_transparent.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .exit_about {
-    color: #084E96;
-    border: 2px solid #084E96;
+    background-image: url("../images/exit_button_1d_blue_transparent.png");
 }
 
 .exit_p:hover {
-    cursor: pointer;
-    transition-duration: 0.6s;
+
+    border-radius: 500px;
+    transition-duration: 1.5s;
 }
 
 .exit_work:hover {
-    color: #084E96;
+    background-image: url("../images/exit_button_1d_blue_transparent.png");
     background-color: #e7e7e7;
 }
 
 .exit_contact:hover {
-    color: #9b0408;
+    background-image: url("../images/exit_button_1d_red_transparent.png");
     background-color: #e7e7e7;
 }
 
 .exit_about:hover {
-    color: #e7e7e7;
+    background-image: url("../images/exit_button_1d_white_transparent.png");
     background-color: #084E96;
 }
 
