@@ -354,6 +354,7 @@ body {
     height: calc(100vh - 224px);
     overflow-x: hidden;
     overflow-y: scroll;
+    max-width: 580px;
 }
 
 .about_item {
@@ -483,6 +484,10 @@ body {
     .section_about_inner {
         background-size: 100%;
     }
+
+    .content_about {
+        margin: 20px auto;
+    }
 }
 
 
@@ -499,6 +504,10 @@ body {
     .section_about_inner {
         background-size: 1000px auto;
         background-position: bottom 0px right -230px;
+    }
+
+    .content_about {
+        flex-direction: row;
     }
 }
 
