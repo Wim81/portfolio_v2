@@ -249,6 +249,16 @@ body {
     border: 3px solid #084E96;
 }
 
+.section_work_inner {
+    background-color: #084E96;
+    background-image: url("../images/crystal_bg_work.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20vh;
+    background-blend-mode: overlay;
+    overflow: hidden;
+}
+
 .exit {
     display: flex;
     justify-content: flex-end;
