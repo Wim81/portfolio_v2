@@ -123,18 +123,21 @@
 </nav>
 
 <div class="sectiondiv section_work">
-    <div class="exit"><p class="exit_p exit_work">x</p></div>
-
+    <div class="sectiondiv_inner section_work_inner">
+        <div class="exit"><p class="exit_p exit_work">x</p></div>
+    </div>
 </div>
 
 <div class="sectiondiv section_contact">
-    <div class="exit"><p class="exit_p exit_contact">x</p></div>
-
+    <div class="sectiondiv_inner section_contact_inner">
+        <div class="exit"><p class="exit_p exit_contact">x</p></div>
+    </div>
 </div>
 
 <div class="sectiondiv section_about">
-    <div class="exit"><p class="exit_p exit_about">x</p></div>
-
+    <div class="sectiondiv_inner section_about_inner">
+        <div class="exit"><p class="exit_p exit_about">x</p></div>
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

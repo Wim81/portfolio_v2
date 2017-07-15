@@ -210,16 +210,29 @@ body {
     position: absolute;
 }
 
+.sectiondiv_inner {
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    background-color: transparent;
+    border: 3px solid #e7e7e7;
+}
+
 .section_work {
     background-color: #084E96;
     color: #e7e7e7;
     bottom: 100vh;
+    z-index: 30;
 }
 
 .section_contact {
     background-color: #9b0408;
     color: #e7e7e7;
     top: 100vh;
+    z-index: 30;
 }
 
 .section_about {
@@ -227,8 +240,13 @@ body {
     background-color: #e7e7e7;
     color: #084E96;
     top: 0vh;
+    z-index: 30;
     left: 100vw;
     border-left: 2px solid #084E96;
+}
+
+.section_about_inner {
+    border: 3px solid #084E96;
 }
 
 .exit {
