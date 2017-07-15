@@ -127,24 +127,39 @@
 
 <div class="sectiondiv section_work">
     <div class="sectiondiv_inner section_work_inner">
-        <div class="exit"><p class="exit_p exit_work"></p></div>
+
         <img src="images/logo_white1.png" class="logo">
+
+        <div class="top_row">
+            <div class="page_title" id="page_title_work">Work</div>
+            <p class="exit_p exit_work"></p>
+        </div>
+
     </div>
 </div>
 
 <div class="sectiondiv section_contact">
     <div class="sectiondiv_inner section_contact_inner">
-        <div class="exit"><p class="exit_p exit_contact"></p></div>
+
         <img src="images/logo_white1.png" class="logo">
+
+        <div class="top_row">
+            <div class="page_title" id="page_title_contact">Contact</div>
+            <p class="exit_p exit_contact"></p>
+        </div>
+
     </div>
 </div>
 
 <div class="sectiondiv section_about">
     <div class="sectiondiv_inner section_about_inner">
-        <div class="exit"><p class="exit_p exit_about"></p></div>
+
         <img src="images/logo_blue1.png" class="logo">
 
-        <div class="page_title" id="page_title_about">About</div>
+        <div class="top_row">
+            <div class="page_title" id="page_title_about">About</div>
+            <p class="exit_p exit_about"></p>
+        </div>
 
         <div class="content_about">
             <div id="about_text_1" class="about_item">

@@ -211,17 +211,6 @@ body {
     display: none;
 }
 
-.page_title {
-    font-family: NOVA;
-    font-size: 2.6em;
-    color: #e7e7e7;
-    padding: 20px;
-}
-
-#page_title_about {
-    color: #084E96;
-}
-
 .section_about img {
     right: auto;
     left: 5px;
@@ -299,10 +288,23 @@ body {
     overflow: hidden;
 }
 
-.exit {
+.top_row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.page_title {
+    font-family: NOVA;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    position: relative;
+    top: -10px;
+}
+
+#page_title_about {
+    color: #084E96;
 }
 
 .exit_p {
