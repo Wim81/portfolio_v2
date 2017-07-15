@@ -245,17 +245,33 @@ body {
     border-left: 2px solid #084E96;
 }
 
-.section_about_inner {
-    border: 3px solid #084E96;
-}
-
 .section_work_inner {
     background-color: #084E96;
     background-image: url("../images/crystal_bg_work.png");
-    background-size: cover;
+    background-size: 600px auto;
     background-repeat: no-repeat;
-    background-position-y: -20vh;
+    background-position-y: 0vh;
     background-blend-mode: overlay;
+    overflow: hidden;
+}
+
+.section_contact_inner {
+    background-color: #9b0408;
+    background-image: url("../images/crystal_bg_contact.png");
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-blend-mode: overlay;
+    overflow: hidden;
+}
+
+.section_about_inner {
+    border: 3px solid #084E96;
+    background-color: #e7e7e7;
+    background-image: url("../images/crystal_bg_about.png");
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    background-position: bottom 0px right -200px;
     overflow: hidden;
 }
 
@@ -300,6 +316,8 @@ body {
     background-image: url("../images/exit_button_1d_white_transparent.png");
     background-color: #084E96;
 }
+
+
 
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {
@@ -391,5 +409,50 @@ body {
 
     .main_text_2b {
         left: 50px;
+    }
+
+    .section_work_inner {
+        background-size: 100%;
+    }
+
+    .section_contact_inner {
+        background-size: 100%;
+    }
+
+    .section_about_inner {
+        background-size: 100%;
+    }
+}
+
+
+/*  media query vanaf 1000 pixels  */
+@media (min-width: 1000px) {
+    .section_work_inner {
+        background-position-y: -100px;
+    }
+
+    .section_contact_inner {
+        background-position: bottom -50px right 0px;
+    }
+
+    .section_about_inner {
+        background-size: 1000px auto;
+        background-position: bottom 0px right -230px;
+    }
+}
+
+/*  media query vanaf 1200 pixels  */
+@media (min-width: 1200px) {
+    .section_work_inner {
+        background-position-y: -200px;
+    }
+
+    .section_contact_inner {
+        background-position: bottom -100px right 0px;
+    }
+
+    .section_about_inner {
+        background-size: 1000px auto;
+        background-position: bottom 0px right -230px;
     }
 }
