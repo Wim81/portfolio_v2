@@ -169,7 +169,7 @@
                 <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
             </div>
 
-            <div class="about_item" id="about_image"></div>
+            <img src="images/bg_image_blue_on_white2.jpg" class="about_item" id="about_image">
 
             <div id="about_text_2" class="about_item">
                 <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
@@ -179,7 +179,7 @@
                 <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
             </div>
 
-        </div>  <!--  einde about content  -->
+        </img>  <!--  einde about content  -->
 
     </div>  <!--  einde about inner section  -->
 </div>  <!--  einde about section  -->

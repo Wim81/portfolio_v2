@@ -291,16 +291,16 @@ body {
 .top_row {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .page_title {
     font-family: NOVA;
-    font-size: 4em;
+    font-size: 5em;
     text-transform: uppercase;
     color: #e7e7e7;
     position: relative;
-    top: 10px;
+    top: -10px;
     left: 20px;
 }
 
@@ -350,7 +350,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin: 20px;
-    background-color: #e7e7e7;
+    background: rgba(231, 231, 231, 0.7);
     height: calc(100vh - 224px);
     overflow-x: hidden;
     overflow-y: scroll;
@@ -362,18 +362,15 @@ body {
 
 #about_text_1, #about_text_2 {
     font-family: Cabin;
-    font-size: 1em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
 #about_image {
-    background-image: url("../images/bg_image_blue_on_white2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
     width: calc(100vw - 220px);
-    height: 0;
-    padding-top: 117.09%; /* (img-height / img-width * container-width) */
-    margin-bottom: -100px;
+    min-width: 160px;
+    max-width: 280px;
+    opacity: 0.7;
 }
 
 
