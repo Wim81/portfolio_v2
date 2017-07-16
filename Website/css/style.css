@@ -303,7 +303,7 @@ body {
 
 .page_title {
     font-family: NOVA;
-    font-size: 5em;
+    font-size: 3em;
     text-transform: uppercase;
     color: #e7e7e7;
     position: relative;
@@ -408,6 +408,10 @@ body {
 @media (min-width: 450px) {
     .logo {
         display: block;
+    }
+
+    .page_title {
+        font-size: 5em;
     }
 }
 
