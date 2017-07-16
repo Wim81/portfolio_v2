@@ -4,6 +4,13 @@
 /*  blue = #084e96  */
 /*  red = #9b0408  */
 
+/* fonts */
+
+@font-face {
+    font-family: Titilium;
+    src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+
 body {
     background-color: #e7e7e7;
     overflow: hidden;
@@ -327,6 +334,7 @@ body {
 
     border-radius: 500px;
     transition-duration: 1.5s;
+    cursor: pointer;
 }
 
 .exit_work:hover {
@@ -362,7 +370,7 @@ body {
 }
 
 #about_text_1, #about_text_2 {
-    font-family: Cabin;
+    font-family: Titilium;
     font-size: 1.2em;
     line-height: 1.6em;
 }
@@ -566,7 +574,11 @@ body {
         background-size: 1000px auto;
         background-position: bottom 0px right -230px;
     }
+}
 
+
+/*  media query vanaf 1280 pixels  */
+@media (min-width: 1280px) {
     .content_about {
         margin: 40px;
     }
@@ -576,6 +588,8 @@ body {
         line-height: 1.6em;
     }
 }
+
+
 
 /*  media query vanaf 1400 pixels  */
 @media (min-width: 1400px) {
