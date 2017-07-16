@@ -48,8 +48,8 @@
 <div class="main_area">
 
     <div class="bg_animation"></div>
-    <div class="bg_border bg_border_1"></div>
-    <div class="bg_border bg_border_2"></div>
+    <div class="bg_border bg_border_1 reset_links"></div>
+    <div class="bg_border bg_border_2 reset_links"></div>
 
     <div class="main_text">
 
@@ -139,7 +139,7 @@
 </div>
 
 <div class="sectiondiv section_contact">
-    <div class="sectiondiv_inner section_contact_inner">
+    <div class="sectiondiv_inner section_contact_inner reset_links">
 
         <img src="images/logo_white1.png" class="logo">
 
@@ -148,7 +148,36 @@
             <p class="exit_p exit_contact"></p>
         </div>
 
+        <div class="content_contact_wrapper">
+            <div class="content_contact">
+            <form class="contact_form">
+
+                <p>Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
+
+                <input type="text" placeholder="name" id="name">
+                <input type="text" placeholder="email" id="email">
+                <input type="text" placeholder="your message" id="message">
+                <input type="submit" value="send" id="send_button">
+
+
+
+            </form>
+            </div>  <!--  einde contact inner section  -->
+
+        </div>  <!--  einde van de wrapper  -->
+
     </div>
+
+    <!--  send link  -->
+    <svg version="1.1" id="link_send" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
+        <a class="nav button_send" xlink:href="#">
+            <polygon id="link_send_shape" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
+            <text id="button_send_text" x="60" y="50">send</text>
+            <div class="whiteline" id="redline_send"></div>
+        </a>
+    </svg>
+
 </div>
 
 <div class="sectiondiv section_about">
@@ -180,7 +209,7 @@
                     <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
                 </div>
 
-            </img>  <!--  einde about content  -->
+
 
             </div>  <!--  einde about inner section  -->
         </div>  <!--  einde van de wrapper  -->

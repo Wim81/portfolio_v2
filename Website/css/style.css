@@ -4,8 +4,6 @@
 /*  blue = #084e96  */
 /*  red = #9b0408  */
 
-/* fonts */
-
 @font-face {
     font-family: Titilium;
     src: url("../fonts/TitilliumWeb-Regular.ttf");
@@ -352,6 +350,40 @@ body {
     background-color: #084E96;
 }
 
+.content_contact {
+    margin: 20px;
+}
+
+.contact_form {
+    margin: 20px;
+}
+
+#link_send {
+    width: 210px;
+    position: absolute;
+    bottom: -3px;
+    left: calc((100vw - 210px)/2);
+    display: block;
+}
+
+#link_send_shape {
+    fill: #e7e7e7;
+    cursor: pointer;
+    stroke-width: 1.6px;
+}
+
+.button_send {
+    fill: #9b0408;
+}
+
+#redline_send {
+    width: 185.5px;
+    bottom: 20px;
+    left: calc(((100vw - 186px)/2) - 1px);
+    display: block;
+    background-color: #9b0408;
+}
+
 .content_about {
     display: flex;
     flex-direction: column;
@@ -501,6 +533,16 @@ body {
         margin: 20px auto;
     }
 
+    #link_send {
+        width: 420px;
+        bottom: -40px;
+        left: calc((100vw - 420px)/2);
+    }
+
+    #redline_send {
+        width: 373px;
+        left: calc(((100vw - 373px)/2) + 1px);
+    }
 }
 
 

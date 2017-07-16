@@ -57,9 +57,24 @@ $(document).ready(function() {
     });
 
 
+    /* send link hover effect */
+
+    $("#link_send_shape").hover(function() {
+        $("#link_send_shape").css({fill: "#9b0408", transition: "3s"});
+        $("#link_send_shape").css({stroke: "#e7e7e7", transition: "3s"});
+        if($(window).width() < 640) {
+            $("#link_send_shape").css({strokeWidth: "1.6px", transition: "0s"});
+        } else {
+            $("#link_send_shape").css({strokeWidth: "0.8px", transition: "0s"});
+        }
+        $("#button_send_text").css({fill: "#e7e7e7", transition: "3s"});
+        $("#redline_send").hide("1s");
+    }, function() {
+    });
+
     /* resetten wanneer terug weg van link */
 
-    $(".bg_border").hover(function() {
+    $(".reset_links").hover(function() {
 
         /* work link reset */
 
@@ -90,6 +105,14 @@ $(document).ready(function() {
         $("#link_about2_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_about2_shape").css({strokeWidth: "1.2px", transition: "3s"});
         $("#nav_about2_text").css({fill: "#084E96", transition: "3s"});
+
+        /* send button reset */
+
+        $("#link_send_shape").css({fill: "#e7e7e7", transition: "3s"});
+        $("#link_send_shape").css({stroke: "#e7e7e7", transition: "3s"});
+        $("#link_send_shape").css({strokeWidth: "0px", transition: "0s"});
+        $("#button_send_text").css({fill: "#9b0408", transition: "3s"});
+        $("#redline_send").show("1s");
 
     }, function() {
     });
