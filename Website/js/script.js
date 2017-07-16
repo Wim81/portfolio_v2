@@ -334,4 +334,22 @@ $(document).ready(function() {
         });
     });
 
+
+    /*  scrollbar  */
+
+    $(".content_about").niceScroll({
+        cursorcolor:"#084E96",
+        cursorwidth:"8px",
+        cursorborder: "0px solid #084E96",
+        cursorborderradius: "0px",
+        cursorfixedheight: 100,
+        autohidemode: "leave",
+        cursoropacitymin: 0.2,
+        cursoropacitymax: 0.7,
+        background: "transparent",
+        enablemousewheel: true,
+        enablekeyboard: true,
+        smoothscroll: true,
+    });
+
 });
