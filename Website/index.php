@@ -152,14 +152,11 @@
             <div class="content_contact">
             <form class="contact_form">
 
-                <p>Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
+                <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
 
-                <input type="text" placeholder="name" id="name">
-                <input type="text" placeholder="email" id="email">
-                <input type="text" placeholder="your message" id="message">
-                <input type="submit" value="send" id="send_button">
-
-
+                <input type="text" placeholder="name" class="form_item" id="name">
+                <input type="text" placeholder="email" class="form_item" id="email">
+                <input type="text" placeholder="your message" class="form_item" id="message">
 
             </form>
             </div>  <!--  einde contact inner section  -->

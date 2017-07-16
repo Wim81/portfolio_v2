@@ -4,10 +4,34 @@
 /*  blue = #084e96  */
 /*  red = #9b0408  */
 
-@font-face {
-    font-family: Titilium;
-    src: url("../fonts/TitilliumWeb-Regular.ttf");
-}
+    /* font */
+    @font-face {
+        font-family: Titilium;
+        src: url("../fonts/TitilliumWeb-Regular.ttf");
+    }
+
+    /* placeholder appearance */
+    *::-webkit-input-placeholder {
+        color: #e7e7e7;
+        opacity:  0.6;
+    }
+    *:-moz-placeholder {
+        /* FF 4-18 */
+        color: #e7e7e7;
+        opacity:  0.6;
+    }
+    *::-moz-placeholder {
+        /* FF 19+ */
+        color: #e7e7e7;
+        opacity:  0.6;
+    }
+    *:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #e7e7e7;
+        opacity:  0.6;
+    }
+
+
 
 body {
     background-color: #e7e7e7;
@@ -358,6 +382,35 @@ body {
     margin: 20px;
 }
 
+#contact_intro {
+    padding-bottom: 40px;
+}
+
+.form_item {
+    font-family: Titilium;
+    font-size: 1.2em;
+    color: #e7e7e7;
+    background-color: transparent;
+    border-top: 3px solid #e7e7e7;
+    border-bottom: 3px solid #e7e7e7;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0px;
+    width: 100%;
+    height: 2em;
+    text-indent: 10px;
+}
+
+.form_item:focus {
+    background: rgba(231, 231, 231, 0.2);
+    outline: none;
+    transition: 0.3s;
+}
+
+#message {
+    height: 6em;
+}
+
 #link_send {
     width: 210px;
     position: absolute;
@@ -401,7 +454,7 @@ body {
     padding: 20px;
 }
 
-#about_text_1, #about_text_2 {
+#about_text_1, #about_text_2, #contact_intro {
     font-family: Titilium;
     font-size: 1.2em;
     line-height: 1.6em;
