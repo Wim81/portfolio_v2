@@ -31,7 +31,9 @@
         opacity:  0.6;
     }
 
-
+.hidden {
+    /* isplay: none; */
+}
 
 body {
     background-color: #e7e7e7;

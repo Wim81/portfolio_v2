@@ -2,6 +2,9 @@
 
 
 
+$name = $_POST["name"];
+
+
 ?>
 
 <!DOCTYPE html>
@@ -150,14 +153,15 @@
 
         <div class="content_contact_wrapper">
             <div class="content_contact">
-            <form class="contact_form">
+            <form class="contact_form" action ="" method="post">
 
                 <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
 
                 <input type="text" placeholder="name" class="form_item" id="name">
                 <input type="text" placeholder="email" class="form_item" id="email">
                 <textarea placeholder="your message" class="form_item" id="message"></textarea>
-
+                <input type="submit" name="submit" id="submit-form" value="submit" class="hidden" />
+                <?php var_dump($name) ; ?>
             </form>
             </div>  <!--  einde contact inner section  -->
 
@@ -165,15 +169,19 @@
 
     </div>
 
-    <!--  send link  -->
-    <svg version="1.1" id="link_send" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
-        <a class="nav button_send" xlink:href="#">
-            <polygon id="link_send_shape" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
-            <text id="button_send_text" x="60" y="50">send</text>
-            <div class="whiteline" id="redline_send"></div>
-        </a>
-    </svg>
+
+
+    <!-- <label for="submit_form" tabindex="0"> label om te testen </label> -->
+        <!--  send link  -->
+        <svg version="1.1" id="link_send" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
+            <a class="nav button_send" xlink:href="#">
+                <polygon id="link_send_shape" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
+                <text id="button_send_text" x="60" y="50">send</text>
+                <div class="whiteline" id="redline_send"></div>
+            </a>
+        </svg>
+
 
 </div>
 
