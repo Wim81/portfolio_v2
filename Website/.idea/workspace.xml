@@ -18,8 +18,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="158" column="80" lean-forward="false" selection-start-line="158" selection-start-column="80" selection-end-line="158" selection-end-column="80" />
+            <state relative-caret-position="444">
+              <caret line="157" column="84" lean-forward="false" selection-start-line="157" selection-start-column="84" selection-end-line="157" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="406" column="19" lean-forward="false" selection-start-line="406" selection-start-column="19" selection-end-line="406" selection-end-column="19" />
+            <state relative-caret-position="128">
+              <caret line="384" column="23" lean-forward="false" selection-start-line="384" selection-start-column="23" selection-end-line="384" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2434">
-              <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+            <state relative-caret-position="256">
+              <caret line="382" column="42" lean-forward="true" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,13 +59,15 @@
       <find>whiteline_c</find>
       <find>bg_border</find>
       <find>titil</find>
+      <find>rgb</find>
+      <find>max-w</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -225,12 +227,12 @@
       <workItem from="1499697106076" duration="19491000" />
       <workItem from="1499766969998" duration="11620000" />
       <workItem from="1500125345229" duration="21547000" />
-      <workItem from="1500199108883" duration="9433000" />
+      <workItem from="1500199108883" duration="10375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102120000" />
+    <option name="totallyTimeSpent" value="103062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -405,28 +407,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="157" column="84" lean-forward="false" selection-start-line="157" selection-start-column="84" selection-end-line="157" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2434">
-          <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+        <state relative-caret-position="256">
+          <caret line="382" column="42" lean-forward="true" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="158" column="80" lean-forward="false" selection-start-line="158" selection-start-column="80" selection-end-line="158" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="406" column="19" lean-forward="false" selection-start-line="406" selection-start-column="19" selection-end-line="406" selection-end-column="19" />
+        <state relative-caret-position="128">
+          <caret line="384" column="23" lean-forward="false" selection-start-line="384" selection-start-column="23" selection-end-line="384" selection-end-column="23" />
           <folding />
         </state>
       </provider>

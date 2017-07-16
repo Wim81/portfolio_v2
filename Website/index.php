@@ -156,7 +156,7 @@
 
                 <input type="text" placeholder="name" class="form_item" id="name">
                 <input type="text" placeholder="email" class="form_item" id="email">
-                <input type="text" placeholder="your message" class="form_item" id="message">
+                <textarea placeholder="your message" class="form_item" id="message"></textarea>
 
             </form>
             </div>  <!--  einde contact inner section  -->

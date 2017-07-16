@@ -380,6 +380,10 @@ body {
 
 .contact_form {
     margin: 20px;
+    max-width: 580px;
+    height: calc(100vh - 224px);
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 #contact_intro {
@@ -390,6 +394,7 @@ body {
     font-family: Titilium;
     font-size: 1.2em;
     color: #e7e7e7;
+    box-sizing: border-box;
     background-color: transparent;
     border-top: 3px solid #e7e7e7;
     border-bottom: 3px solid #e7e7e7;
@@ -409,6 +414,7 @@ body {
 
 #message {
     height: 6em;
+    resize: none;
 }
 
 #link_send {
