@@ -466,6 +466,69 @@ section {
     animation-timing-function: linear;
 }
 
+#total_balloon {
+    display: block;
+    width: 360px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-animation-name: total_balloon;
+    animation-name: total_balloon;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-transform-origin: 50% 5%;
+    -ms-transform-origin: 50% 5%;
+    transform-origin: 50% 5%;
+}
+#balloon {
+    z-index: 10;
+    display: block;
+    position: absolute;
+    background-image: url("../images/404/404_balloon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 360px;
+    height: 600px;
+}
+
+#fire {
+    z-index: 9;
+    display: block;
+    position: absolute;
+    background-image: url("../images/404/sprite_fire.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 600px;
+    -webkit-animation: sprite_fire 0.5s steps(4) infinite;
+    animation: sprite_fire 0.5s steps(4) infinite;
+}
+
+#dude {
+    z-index: 9;
+    display: block;
+    position: absolute;
+    background-image: url("../images/404/404_sprite_dude.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 600px;
+    -webkit-animation: sprite_dude 4s steps(32) infinite;
+    animation: sprite_dude 4s steps(32) infinite;
+}
+
+
+
 @-webkit-keyframes drift1 {
     0% {-webkit-transform: translateX(-100%);transform: translateX(-100%);}
     100% {-webkit-transform: translateX(400%);transform: translateX(400%);}
