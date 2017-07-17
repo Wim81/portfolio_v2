@@ -1,8 +1,10 @@
 <?php
 
 
+if ( !empty ($POST) ) {
+    $name = $_POST["name"];
+}
 
-$name = $_POST["name"];
 
 
 ?>
@@ -204,7 +206,7 @@ $name = $_POST["name"];
                     <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
                 </div>
 
-                <img src="images/bg_image_blue_on_white2.jpg" class="about_item" id="about_image">
+                <img src="images/bg_image_blue_on_white_v2.png" class="about_item" id="about_image">
 
                 <div id="about_text_2" class="about_item">
                     <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
