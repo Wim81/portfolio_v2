@@ -1,20 +1,6 @@
 <?php
 
 
-if ( !empty ($POST) ) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    /*
-    session_start();
-    $_SESSION['name'] = $name;
-    $_SESSION['email'] = $email;
-    $_SESSION['message'] = $message;
-    */
-}
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -171,7 +157,32 @@ if ( !empty ($POST) ) {
                 <input type="text" placeholder="email" class="form_item" id="email" name="email">
                 <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
                 <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
-                <?php var_dump($_POST) ; ?>
+                <?php var_dump($_POST) ;
+
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+
+                if ( !empty($name) || $name <> null ) {
+                    echo "de naam die is opgetekend is " . $name;
+                } else {
+                    echo "there is no name!";
+                }
+
+                if ($email) {
+                    echo "de email die is opgetekend is " . $email;
+                } else {
+                    echo "there is no email!";
+                }
+
+                if ($message) {
+                    echo "de message die is opgetekend is " . $message;
+                } else {
+                    echo "there is no message!";
+                }
+
+
+                ?>
             </form>
             </div>  <!--  einde contact inner section  -->
 
