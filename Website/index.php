@@ -2,7 +2,15 @@
 
 
 if ( !empty ($POST) ) {
-    $name = $_POST["name"];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    /*
+    session_start();
+    $_SESSION['name'] = $name;
+    $_SESSION['email'] = $email;
+    $_SESSION['message'] = $message;
+    */
 }
 
 
@@ -159,11 +167,11 @@ if ( !empty ($POST) ) {
 
                 <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
 
-                <input type="text" placeholder="name" class="form_item" id="name">
-                <input type="text" placeholder="email" class="form_item" id="email">
-                <textarea placeholder="your message" class="form_item" id="message"></textarea>
-                <input type="submit" name="submit" id="submit-form" value="submit" class="hidden" />
-                <?php var_dump($name) ; ?>
+                <input type="text" placeholder="name" class="form_item" id="name" name="name">
+                <input type="text" placeholder="email" class="form_item" id="email" name="email">
+                <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
+                <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
+                <?php var_dump($_POST) ; ?>
             </form>
             </div>  <!--  einde contact inner section  -->
 
