@@ -156,8 +156,8 @@
                 <input type="text" placeholder="name" class="form_item" id="name" name="name">
                 <input type="text" placeholder="email" class="form_item" id="email" name="email">
                 <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
-                <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
-                <?php var_dump($_POST) ;
+                <!-- <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button> -->
+                <?php /* var_dump($_POST) ;
 
                 $name = $_POST['name'];
                 $email = $_POST['email'];
@@ -181,7 +181,7 @@
                     echo "there is no message!";
                 }
 
-
+                */
                 ?>
             </form>
             </div>  <!--  einde contact inner section  -->
