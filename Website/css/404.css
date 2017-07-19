@@ -582,12 +582,12 @@ section {
 
 @-webkit-keyframes sprite_dude {
     0% {background-position:0 0;}
-    100%{background-position: -11520px 0;}
+    100%{background-position: -11370px 0;}
 }
 
 @keyframes sprite_dude {
     0% {background-position:0 0;}
-    100%{background-position: -11520px 0;}
+    100%{background-position: -11370px 0;}
 }
 
 @-webkit-keyframes total_balloon {
