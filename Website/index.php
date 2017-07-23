@@ -134,6 +134,21 @@
             <p class="exit_p exit_work"></p>
         </div>
 
+        <div class="content_work">
+
+            <div class="work_title work_title_1">Websites</div>
+
+            <div class="work_item" id="work_item_1">
+
+                
+
+            </div>
+
+
+            <div class="work_title work_title_2">Fun</div>
+
+        </div>
+
     </div>
 </div>
 
