@@ -242,6 +242,49 @@ body {
     display: none;
 }
 
+.content_work {
+    height: 100vh;
+    padding: 40px;
+}
+
+.work_item {
+    box-sizing: border-box;
+    width: 180px;
+    height: 291px;
+    border: 3px solid #e7e7e7;
+    background-image: url("../images/preview_1_bauweraertsjef_bw.jpg");
+    background-size: contain;
+}
+
+.work_item_label {
+    height: 100%;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);
+    clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);
+    color: #084E96;
+    background-color: #e7e7e7;
+    transition: 0.5s;
+}
+
+.work_item_label:hover {
+    cursor: pointer;
+    height: 15%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 68%);
+    clip-path: polygon(0 0, 100% 0, 100% 68%, 0 68%);
+    transition: 0.5s;
+}
+
+.work_item_label h2 {
+    font-family: NOVA;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.work_item_label p {
+    font-family: Titilium;
+    font-size: 1.2em;
+}
+
 .section_about img {
     right: auto;
     left: 5px;

@@ -139,8 +139,11 @@
             <div class="work_title work_title_1">Websites</div>
 
             <div class="work_item" id="work_item_1">
+                <div class="work_item_label">
+                    <h2>Bauweraerts Jef</h2>
+                    <p>website voor klant die ruimingswerken verzorgt</p>
+                </div>
 
-                
 
             </div>
 
