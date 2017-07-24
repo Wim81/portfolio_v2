@@ -274,7 +274,7 @@ body {
 .work_item_label h2 {
     font-family: NOVA;
     font-size: 1.4em;
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 .work_item_label p {
@@ -555,6 +555,7 @@ body {
 em {
     font-family: Titilium;
     font-weight: bold;
+    font-size: 0.9em;
 }
 
 
