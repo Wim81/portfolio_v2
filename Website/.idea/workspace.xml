@@ -18,6 +18,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <state relative-caret-position="120">
               <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
@@ -48,6 +49,12 @@
                 <element signature="e#6494#7262#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <state relative-caret-position="308">
+              <caret line="141" column="64" lean-forward="false" selection-start-line="141" selection-start-column="64" selection-end-line="141" selection-end-column="64" />
+              <folding>
+                <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
               </folding>
             </state>
           </provider>
@@ -73,9 +80,14 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
             <state relative-caret-position="246">
               <caret line="252" column="18" lean-forward="false" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
 >>>>>>> work item half OK
+=======
+            <state relative-caret-position="290">
+              <caret line="266" column="38" lean-forward="false" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="38" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
               <folding />
             </state>
           </provider>
@@ -84,8 +96,13 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
             <state relative-caret-position="168">
               <caret line="382" column="42" lean-forward="false" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
+=======
+            <state relative-caret-position="309">
+              <caret line="367" column="7" lean-forward="false" selection-start-line="367" selection-start-column="7" selection-end-line="367" selection-end-column="7" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -117,14 +134,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/css/404.css" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/index.php" />
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
         <option value="$PROJECT_DIR$/css/component.css" />
 =======
+=======
+        <option value="$PROJECT_DIR$/js/script.js" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
         <option value="$PROJECT_DIR$/css/style.css" />
 >>>>>>> work item half OK
       </list>
@@ -158,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +220,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -293,16 +313,25 @@
       <workItem from="1500199108883" duration="10375000" />
       <workItem from="1500217392240" duration="5299000" />
       <workItem from="1500289999487" duration="8204000" />
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
       <workItem from="1500456722138" duration="8688000" />
+=======
+      <workItem from="1500456722138" duration="5245000" />
+      <workItem from="1500895856959" duration="2829000" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
     <option name="totallyTimeSpent" value="125253000" />
 =======
     <option name="totallyTimeSpent" value="124515000" />
 >>>>>>> work item half OK
+=======
+    <option name="totallyTimeSpent" value="127942000" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -382,12 +411,7 @@
         <state relative-caret-position="4070">
           <caret line="185" column="47" lean-forward="false" selection-start-line="185" selection-start-column="47" selection-end-line="185" selection-end-column="47" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,12 +439,7 @@
         <state relative-caret-position="2420">
           <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,12 +467,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -471,12 +485,7 @@
         <state relative-caret-position="1078">
           <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,12 +513,7 @@
         <state relative-caret-position="1078">
           <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,25 +562,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo.css" />
-    <entry file="file://$PROJECT_DIR$/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/component.css" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6494#7262#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,6 +586,7 @@
         <state relative-caret-position="2376">
           <caret line="108" column="10" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="108" selection-end-column="10" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
             <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -601,6 +594,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -644,6 +640,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -668,6 +665,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -695,6 +695,7 @@
         <state relative-caret-position="3454">
           <caret line="157" column="84" lean-forward="false" selection-start-line="157" selection-start-column="84" selection-end-line="157" selection-end-column="84" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -719,6 +720,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -746,6 +750,7 @@
         <state relative-caret-position="4070">
           <caret line="185" column="47" lean-forward="false" selection-start-line="185" selection-start-column="47" selection-end-line="185" selection-end-column="47" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -770,6 +775,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -797,6 +805,7 @@
         <state relative-caret-position="2420">
           <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -821,6 +830,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -848,6 +860,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -872,6 +885,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -889,6 +905,7 @@
         <state relative-caret-position="1078">
           <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -913,6 +930,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -940,6 +960,7 @@
         <state relative-caret-position="1078">
           <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
 <<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
             <element signature="e#8998#9842#0#PHP" expanded="true" />
             <marker date="1500490244733" expanded="true" signature="43:2477" ph="..." />
@@ -964,6 +985,9 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
@@ -986,6 +1010,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -996,6 +1021,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1060,9 +1087,10 @@
 =======
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="143" column="69" lean-forward="false" selection-start-line="143" selection-start-column="69" selection-end-line="143" selection-end-column="69" />
+        <state relative-caret-position="308">
+          <caret line="141" column="64" lean-forward="false" selection-start-line="141" selection-start-column="64" selection-end-line="141" selection-end-column="64" />
           <folding>
+<<<<<<< f06afc4aa3960ccf553e32b61c1ea2529f358539
             <element signature="n#style#0;n#svg#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1070,14 +1098,27 @@
             <element signature="e#6494#7262#0#PHP" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> work item half OK
+=======
+            <element signature="e#6517#7285#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="367" column="7" lean-forward="false" selection-start-line="367" selection-start-column="7" selection-end-line="367" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+>>>>>>> reeds gemaakte CSS work item omgezet naar jQuery
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="252" column="18" lean-forward="false" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+        <state relative-caret-position="290">
+          <caret line="266" column="38" lean-forward="false" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="38" />
           <folding />
         </state>
       </provider>
