@@ -124,11 +124,20 @@
     </nav>
 
 
+<<<<<<< 3d5a5e31631a162c5f27903afee5f47d21cd701d
     <!--  begin work section  -->
     <div class="sectiondiv section_work">
         <div class="sectiondiv_inner section_work_inner">
 
             <img src="images/logo_white1.png" class="logo">
+=======
+            <div class="work_item" id="work_item_1">
+                <div class="work_item_label">
+                    <h2>Bauweraerts Jef</h2>
+                    <p>website voor klant die ruimingswerken verzorgt</p>
+                </div>
+
+>>>>>>> work item half OK
 
             <div class="top_row">
                 <div class="page_title" id="page_title_work">Work</div>
