@@ -144,12 +144,10 @@ $(document).ready(function() {
         $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
         $(".section_work").delay(1500).queue(function (next) {
             $(this).css({bottom: "0vh", transition: "3s"});
-            console.log("kunta kinte");
             next();
          });
         $("#link_work").delay(1500).queue(function (next) {
             $(this).css({top: "100vh", transition: "3s"});
-            console.log("yo yo yo my brother");
             next();
         });
     });
@@ -355,6 +353,18 @@ $(document).ready(function() {
             $(this).css({borderLeft: "2px solid #084E96", transition: "0.5s"});
             next();
         });
+    });
+
+
+    /*  hover effect work item 1  */
+
+    $("#work_item_1").hover(function() {
+        $("#work_item_1").css({backgroundImage: "url('images/preview_1_bauweraertsjef.jpg')", cursor: "pointer"});
+        $("#work_item_label_1").css({height: "15%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
+
+    }, function() {
+        $("#work_item_1").css({backgroundImage: "url('images/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
+        $("#work_item_label_1").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
     });
 
 

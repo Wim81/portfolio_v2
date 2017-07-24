@@ -254,24 +254,17 @@ body {
     border: 3px solid #e7e7e7;
     background-image: url("../images/preview_1_bauweraertsjef_bw.jpg");
     background-size: contain;
+    transition: background 2s;
 }
 
 .work_item_label {
     height: 100%;
     width: 100%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);*/
     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);
     color: #084E96;
     background-color: #e7e7e7;
-    transition: 0.5s;
-}
-
-.work_item_label:hover {
-    cursor: pointer;
-    height: 15%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 68%);
-    clip-path: polygon(0 0, 100% 0, 100% 68%, 0 68%);
-    transition: 0.5s;
+    transition: height 1s, clip-path 1s;
 }
 
 .work_item_label h2 {
