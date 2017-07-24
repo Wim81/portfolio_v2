@@ -248,6 +248,7 @@ body {
 }
 
 .work_item {
+    position: relative;
     box-sizing: border-box;
     width: 180px;
     height: 291px;
@@ -263,19 +264,36 @@ body {
     /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);*/
     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);
     color: #084E96;
-    background-color: #e7e7e7;
+    background-color: rgba(231, 231, 231, 0.7);
     transition: height 1s, clip-path 1s;
+    text-align: center;
 }
 
 .work_item_label h2 {
     font-family: NOVA;
-    font-size: 2em;
+    font-size: 1.4em;
     padding: 10px;
 }
 
 .work_item_label p {
     font-family: Titilium;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.work_item_link {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #084E96;
+    background-color: rgba(231, 231, 231, 0.7);
+    font-family: NOVA;
     font-size: 1.2em;
+    opacity: 0;
+    transition: opacity 1.5s;
 }
 
 .section_about img {

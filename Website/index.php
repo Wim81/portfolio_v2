@@ -141,9 +141,9 @@
             <div class="work_item" id="work_item_1">
                 <div class="work_item_label" id="work_item_label_1">
                     <h2>Bauweraerts Jef</h2>
-                    <p>website voor klant die ruimingswerken verzorgt</p>
+                    <p>website for a client who has a cesspool cleaning company</p>
                 </div>
-
+                <div class="work_item_link" id="work_item_link_1">view</div>
 
             </div>
 
