@@ -253,9 +253,11 @@ body {
     width: 180px;
     height: 291px;
     border: 3px solid #e7e7e7;
-    background-image: url("../images/work/preview_1_bauweraertsjef_bw.jpg");
     background-size: contain;
     transition: background 2s;
+    margin: 10px;
+    display: block;
+    float: left;
 }
 
 .work_item_label {
@@ -294,6 +296,26 @@ body {
     font-size: 1.2em;
     opacity: 0;
     transition: opacity 1.5s;
+}
+
+#work_item_1 {
+    background-image: url("../images/work/preview_1_bauweraertsjef_bw.jpg");
+}
+
+#work_item_2 {
+    background-image: url("../images/work/preview_2_danysstyle_bw.jpg");
+}
+
+#work_item_3 {
+    background-image: url("../images/work/preview_3_hangman_bw.jpg");
+}
+
+#work_item_4 {
+    background-image: url("../images/work/preview_4_404_bw.jpg");
+}
+
+#work_item_5 {
+    background-image: url("../images/work/preview_5_christmasinvaders_bw.jpg");
 }
 
 .section_about img {
@@ -528,6 +550,11 @@ body {
     min-width: 200px;
     max-width: 320px;
     opacity: 0.7;
+}
+
+em {
+    font-family: Titilium;
+    font-weight: bold;
 }
 
 

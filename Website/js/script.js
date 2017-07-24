@@ -371,6 +371,66 @@ $(document).ready(function() {
         $("#work_item_1 p").show(1000);
     });
 
+    /*  hover effect work item 2  */
+
+    $("#work_item_2").hover(function() {
+        $("#work_item_2").css({backgroundImage: "url('images/work/preview_2_danysstyle.jpg')", cursor: "pointer"});
+        $("#work_item_label_2").css({height: "25%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
+        $("#work_item_link_2").css({opacity: "1"});
+        $("#work_item_2 p").hide(1000);
+
+    }, function() {
+        $("#work_item_2").css({backgroundImage: "url('images/work/preview_2_danysstyle_bw.jpg')", cursor: "auto"});
+        $("#work_item_label_2").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
+        $("#work_item_link_2").css({opacity: "0"});
+        $("#work_item_2 p").show(1000);
+    });
+
+    /*  hover effect work item 3  */
+
+    $("#work_item_3").hover(function() {
+        $("#work_item_3").css({backgroundImage: "url('images/work/preview_3_hangman.jpg')", cursor: "pointer"});
+        $("#work_item_label_3").css({height: "25%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
+        $("#work_item_link_3").css({opacity: "1"});
+        $("#work_item_3 p").hide(1000);
+
+    }, function() {
+        $("#work_item_3").css({backgroundImage: "url('images/work/preview_3_hangman_bw.jpg')", cursor: "auto"});
+        $("#work_item_label_3").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
+        $("#work_item_link_3").css({opacity: "0"});
+        $("#work_item_3 p").show(1000);
+    });
+
+    /*  hover effect work item 4  */
+
+    $("#work_item_4").hover(function() {
+        $("#work_item_4").css({backgroundImage: "url('images/work/preview_4_404.jpg')", cursor: "pointer"});
+        $("#work_item_label_4").css({height: "25%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
+        $("#work_item_link_4").css({opacity: "1"});
+        $("#work_item_4 p").hide(1000);
+
+    }, function() {
+        $("#work_item_4").css({backgroundImage: "url('images/work/preview_4_404_bw.jpg')", cursor: "auto"});
+        $("#work_item_label_4").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
+        $("#work_item_link_4").css({opacity: "0"});
+        $("#work_item_4 p").show(1000);
+    });
+
+    /*  hover effect work item 5  */
+
+    $("#work_item_5").hover(function() {
+        $("#work_item_5").css({backgroundImage: "url('images/work/preview_5_christmasinvaders.jpg')", cursor: "pointer"});
+        $("#work_item_label_5").css({height: "25%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
+        $("#work_item_link_5").css({opacity: "1"});
+        $("#work_item_5 p").hide(1000);
+
+    }, function() {
+        $("#work_item_5").css({backgroundImage: "url('images/work/preview_5_christmasinvaders_bw.jpg')", cursor: "auto"});
+        $("#work_item_label_5").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
+        $("#work_item_link_5").css({opacity: "0"});
+        $("#work_item_5 p").show(1000);
+    });
+
 
     /*  scrollbar about  */
 

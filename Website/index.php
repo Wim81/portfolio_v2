@@ -147,8 +147,43 @@
 
             </div>
 
+            <div class="work_item" id="work_item_2">
+                <div class="work_item_label" id="work_item_label_2">
+                    <h2>Dany's Style</h2>
+                    <p>coming soon: website for hair styling salon</p>
+                </div>
+                <div class="work_item_link" id="work_item_link_2">view</div>
+
+            </div>
 
             <div class="work_title work_title_2">Fun</div>
+
+            <div class="work_item" id="work_item_3">
+                <div class="work_item_label" id="work_item_label_3">
+                    <h2>Hangman</h2>
+                    <p>coming soon: hangman game</p>
+                </div>
+                <div class="work_item_link" id="work_item_link_3">view</div>
+
+            </div>
+
+            <div class="work_item" id="work_item_4">
+                <div class="work_item_label" id="work_item_label_4">
+                    <h2>Christmas Invaders</h2>
+                    <p>wallpaper for smashing magazine competition which was selected</p>
+                </div>
+                <div class="work_item_link" id="work_item_link_4">view</div>
+
+            </div>
+
+            <div class="work_item" id="work_item_5">
+                <div class="work_item_label" id="work_item_label_5">
+                    <h2><em>404</em> Page</h2>
+                    <p>404 page for this website</p>
+                </div>
+                <div class="work_item_link" id="work_item_link_5">view</div>
+
+            </div>
 
         </div>
 
