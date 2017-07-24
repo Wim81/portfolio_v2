@@ -35,7 +35,7 @@
     * mail functionaliteit laten werken in contact section (kijk ook eens hoe je dat bij site Jef gedaan hebt)
     * 404 verder maken
 
-7. zet erin: site Jef, Galgje, maak modulair
+7. zet erin: site Jef, site Dany (coming soon), Galgje, 404, Christmas Invaders
 
 
 
