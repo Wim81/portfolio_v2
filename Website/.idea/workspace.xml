@@ -15,10 +15,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="264">
               <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
               <folding>
                 <element signature="e#6603#7371#0#PHP" expanded="true" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="280" column="18" lean-forward="false" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
+            <state relative-caret-position="181">
+              <caret line="255" column="42" lean-forward="false" selection-start-line="255" selection-start-column="42" selection-end-line="255" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="370" column="36" lean-forward="false" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
+            <state relative-caret-position="441">
+              <caret line="367" column="66" lean-forward="false" selection-start-line="367" selection-start-column="66" selection-end-line="367" selection-end-column="66" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -243,12 +243,12 @@
       <workItem from="1500217392240" duration="5299000" />
       <workItem from="1500289999487" duration="8204000" />
       <workItem from="1500456722138" duration="5245000" />
-      <workItem from="1500895856959" duration="5580000" />
+      <workItem from="1500895856959" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130693000" />
+    <option name="totallyTimeSpent" value="130855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -722,20 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
-          <folding>
-            <element signature="e#6603#7371#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="370" column="36" lean-forward="false" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
+        <state relative-caret-position="441">
+          <caret line="367" column="66" lean-forward="false" selection-start-line="367" selection-start-column="66" selection-end-line="367" selection-end-column="66" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -744,9 +734,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="280" column="18" lean-forward="false" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
+        <state relative-caret-position="181">
+          <caret line="255" column="42" lean-forward="false" selection-start-line="255" selection-start-column="42" selection-end-line="255" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+          <folding>
+            <element signature="e#6603#7371#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

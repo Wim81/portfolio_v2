@@ -359,13 +359,13 @@ $(document).ready(function() {
     /*  hover effect work item 1  */
 
     $("#work_item_1").hover(function() {
-        $("#work_item_1").css({backgroundImage: "url('images/preview_1_bauweraertsjef.jpg')", cursor: "pointer"});
+        $("#work_item_1").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef.jpg')", cursor: "pointer"});
         $("#work_item_label_1").css({height: "25%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 68%)"});
         $("#work_item_link_1").css({opacity: "1"});
         $("#work_item_1 p").hide(1000);
 
     }, function() {
-        $("#work_item_1").css({backgroundImage: "url('images/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
+        $("#work_item_1").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
         $("#work_item_label_1").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 68%, 0 42%)"});
         $("#work_item_link_1").css({opacity: "0"});
         $("#work_item_1 p").show(1000);
