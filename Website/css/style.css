@@ -243,8 +243,7 @@ body {
 }
 
 .content_work {
-    height: 100vh;
-    /*padding: 40px;*/
+    height: calc(100vh - 200px);
     max-width: 800px;
     margin: 40px;
     display: flex;
@@ -743,6 +742,10 @@ em {
     .page_title {
         top: 10px;
         left: 40px;
+    }
+
+    .content_work {
+        margin: 40px auto;
     }
 
     .content_about_wrapper {
