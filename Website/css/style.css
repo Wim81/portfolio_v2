@@ -244,16 +244,18 @@ body {
 
 .content_work {
     height: 100vh;
-    padding: 40px;
+    /*padding: 40px;*/
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .content_work_element {
-
+    margin: 20px;
 }
 
 .work_title {
@@ -277,7 +279,6 @@ body {
     background-size: contain;
     background-position: center;
     transition: background-image 2s, background-size 2s;
-    margin: 10px;
     display: block;
     float: left;
 }

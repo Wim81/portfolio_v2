@@ -466,4 +466,21 @@ $(document).ready(function() {
         smoothscroll: true,
     });
 
+    /*  scrollbar work  */
+
+    $(".content_work").niceScroll({
+        cursorcolor:"#e7e7e7",
+        cursorwidth:"8px",
+        cursorborder: "0px solid #e7e7e7",
+        cursorborderradius: "0px",
+        cursorfixedheight: 100,
+        autohidemode: "leave",
+        cursoropacitymin: 0.2,
+        cursoropacitymax: 0.7,
+        background: "transparent",
+        enablemousewheel: true,
+        enablekeyboard: true,
+        smoothscroll: true,
+    });
+
 });
