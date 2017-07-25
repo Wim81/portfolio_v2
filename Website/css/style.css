@@ -245,6 +245,20 @@ body {
 .content_work {
     height: 100vh;
     padding: 40px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content_work_element {
+
+}
+
+.work_title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .work_item {
@@ -254,7 +268,8 @@ body {
     height: 291px;
     border: 3px solid #e7e7e7;
     background-size: contain;
-    transition: background 2s;
+    background-position: center;
+    transition: background-image 2s, background-size 2s;
     margin: 10px;
     display: block;
     float: left;
@@ -690,6 +705,14 @@ em {
     #redline_send {
         width: 373px;
         left: calc(((100vw - 373px)/2) + 1px);
+    }
+}
+
+
+/*  media query vanaf 800 pixels  */
+@media (min-width: 800px) {
+    .content_work {
+        justify-content: flex-start;
     }
 }
 

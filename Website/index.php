@@ -136,9 +136,9 @@
 
         <div class="content_work">
 
-            <div class="work_title work_title_1">Websites</div>
+            <div class="work_title work_title_1 content_work_element">Websites</div>
 
-            <div class="work_item" id="work_item_1">
+            <div class="work_item content_work_element" id="work_item_1">
                 <div class="work_item_label" id="work_item_label_1">
                     <h2>Bauweraerts Jef</h2>
                     <p>website for a client who has a cesspool cleaning company</p>
@@ -147,7 +147,7 @@
 
             </div>
 
-            <div class="work_item" id="work_item_2">
+            <div class="work_item content_work_element" id="work_item_2">
                 <div class="work_item_label" id="work_item_label_2">
                     <h2>Dany's Style</h2>
                     <p>coming soon: website for hair styling salon</p>
@@ -156,9 +156,9 @@
 
             </div>
 
-            <div class="work_title work_title_2">Fun</div>
+            <div class="work_title work_title_2 content_work_element">Fun</div>
 
-            <div class="work_item" id="work_item_3">
+            <div class="work_item content_work_element" id="work_item_3">
                 <div class="work_item_label" id="work_item_label_3">
                     <h2>Hangman</h2>
                     <p>coming soon: hangman game</p>
@@ -167,7 +167,7 @@
 
             </div>
 
-            <div class="work_item" id="work_item_4">
+            <div class="work_item content_work_element" id="work_item_4">
                 <div class="work_item_label" id="work_item_label_4">
                     <h2>Christmas Invaders</h2>
                     <p>wallpaper for smashing magazine competition which was selected</p>
@@ -176,7 +176,7 @@
 
             </div>
 
-            <div class="work_item" id="work_item_5">
+            <div class="work_item content_work_element" id="work_item_5">
                 <div class="work_item_label" id="work_item_label_5">
                     <h2><em>404</em> Page</h2>
                     <p>404 page for this website</p>
