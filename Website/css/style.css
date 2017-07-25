@@ -828,6 +828,25 @@ em {
         background-size: 1000px auto;
         background-position: bottom 0px right -230px;
     }
+
+    .content_work {
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .work_title {
+        width: 45%;
+        box-sizing: border-box;
+    }
+    .work_title_1 {
+        order: 1;
+    }
+    .work_title_2 {
+        order: 2;
+    }
+    .work_item {
+        order: 3;
+    }
 }
 
 
