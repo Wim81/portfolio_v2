@@ -295,9 +295,9 @@ a:active{
     width: 100%;
     /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 42%);*/
     clip-path: polygon(0 0, 100% 0, 100% 58%, 0 42%);
-    color: #084E96;
-    background-color: rgba(231, 231, 231, 0.7);
-    transition: height 1s, clip-path 1s;
+    color: #e7e7e7;
+    background-color: rgba(8, 78, 150, 0.7);
+    transition: height 1s, clip-path 1s, background-color 1s, color 1s;
     text-align: center;
 }
 
@@ -320,7 +320,7 @@ a:active{
     width: 100%;
     padding: 10px;
     text-align: center;
-    color: #084E96;
+    color: #084e96;
     background-color: rgba(231, 231, 231, 0.7);
     font-family: NOVA;
     font-size: 1.2em;
