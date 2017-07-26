@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            <state relative-caret-position="96">
+              <caret line="203" column="41" lean-forward="true" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1096">
-              <caret line="671" column="3" lean-forward="false" selection-start-line="671" selection-start-column="3" selection-end-line="674" selection-end-column="5" />
+            <state relative-caret-position="296">
+              <caret line="885" column="32" lean-forward="false" selection-start-line="885" selection-start-column="32" selection-end-line="885" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="-7416">
               <caret line="119" column="0" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -72,8 +72,10 @@
       <find>link_c</find>
       <find>total</find>
       <find>link_con</find>
-      <find>link_contact</find>
       <find>whiteline_c</find>
+      <find>link_contact</find>
+      <find>contact_f</find>
+      <find>contact_for</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -81,11 +83,11 @@
       <list>
         <option value="$PROJECT_DIR$/js/jquery.touchSwipe.min.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/404.js" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/css/404.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -259,12 +261,12 @@
       <workItem from="1500895856959" duration="8328000" />
       <workItem from="1500973335760" duration="7334000" />
       <workItem from="1501063631078" duration="361000" />
-      <workItem from="1501065414473" duration="12950000" />
+      <workItem from="1501065414473" duration="13801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154086000" />
+    <option name="totallyTimeSpent" value="154937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -658,7 +660,7 @@
         <state relative-caret-position="-8808">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="119" column="0" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -725,18 +717,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1096">
-          <caret line="671" column="3" lean-forward="false" selection-start-line="671" selection-start-column="3" selection-end-line="674" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-7416">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        <state relative-caret-position="96">
+          <caret line="203" column="41" lean-forward="true" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="885" column="32" lean-forward="false" selection-start-line="885" selection-start-column="32" selection-end-line="885" selection-end-column="32" />
           <folding />
         </state>
       </provider>

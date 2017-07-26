@@ -490,6 +490,7 @@ a:active{
     margin: 40px 20px;
     max-width: 440px;
     height: calc(100vh - 224px);
+    max-height
     overflow-x: scroll;
     overflow-y: hidden;
 }
@@ -877,3 +878,12 @@ em {
         line-height: 1.6em;
     }
 }
+
+
+/*  media query tot 700 pixels HOOGTE  */
+@media (max-height: 700px) {
+    .contact_form {
+        height: calc(100vh - 350px);
+    }
+}
+
