@@ -141,7 +141,7 @@
             <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1">
                 <div class="work_item_label" id="work_item_label_1">
                     <h2>Bauweraerts Jef</h2>
-                    <p>website for a client who has a cesspool cleaning company</p>
+                    <p>website for a client who provides septic services</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_1">view</div>
 
@@ -167,14 +167,14 @@
 
             </div>
 
-            <div class="work_item content_work_element" id="work_item_4">
+            <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4">
                 <div class="work_item_label" id="work_item_label_4">
                     <h2>Christmas Invaders</h2>
                     <p>wallpaper for smashing magazine competition which was selected</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_4">view</div>
 
-            </div>
+            </a>
 
             <div class="work_item content_work_element" id="work_item_5">
                 <div class="work_item_label" id="work_item_label_5">
