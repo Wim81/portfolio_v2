@@ -138,14 +138,14 @@
 
             <div class="work_title work_title_1 content_work_element">Websites</div>
 
-            <div class="work_item content_work_element" id="work_item_1">
+            <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1">
                 <div class="work_item_label" id="work_item_label_1">
                     <h2>Bauweraerts Jef</h2>
                     <p>website for a client who has a cesspool cleaning company</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_1">view</div>
 
-            </div>
+            </a>
 
             <div class="work_item content_work_element" id="work_item_2">
                 <div class="work_item_label" id="work_item_label_2">
