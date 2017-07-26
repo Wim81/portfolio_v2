@@ -134,7 +134,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/jquery.nicescroll-3.7.5/jquery.nicescroll.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
 
 </body>
 
