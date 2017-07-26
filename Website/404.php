@@ -96,15 +96,21 @@
             <div class="cloud13"></div>
         </div>
 
+        <div class="fourohfour_flex">
+            <div class="fourohfour_part">
                 <div id="total_balloon">
                     <div id="balloon"></div>
                     <div id="fire"></div>
                     <div id="dude"></div>
                 </div>
+            </div>
 
-        <div id="text1" class="text">404</div>
-        <div id="text2" class="text">Deze reis is serieus stevig bezig met u nergens naartoe te brengen.</div>
-        <div id="terug_haar_home" class="text"><a href="index.php" >Begeef u terug naar de begane grond...</a></div>
+            <div class="fourohfour_part">
+                <div id="text1" class="text">404</div>
+                <div id="text2" class="text">Deze reis is serieus stevig bezig met u nergens naartoe te brengen.</div>
+                <div id="terug_haar_home" class="text"><a href="index.php" >Begeef u terug naar de begane grond...</a></div>
+            </div>
+        </div>
 
     </section>
 

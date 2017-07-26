@@ -24,8 +24,9 @@ section {
 
 #text1 {
     width: 100%;
-    margin-bottom: 0.5em;
-    font-size: 12.5em;
+    margin-bottom: 0em;
+    font-size: 7.5em;
+    position: relative;
 }
 
 #text2, #terug_haar_home {
@@ -527,6 +528,13 @@ section {
     animation: sprite_dude 4s steps(32) infinite;
 }
 
+.fourohfour_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 @-webkit-keyframes drift1 {
