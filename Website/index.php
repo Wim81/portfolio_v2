@@ -161,7 +161,7 @@
             <div class="work_item content_work_element" id="work_item_3">
                 <div class="work_item_label" id="work_item_label_3">
                     <h2>Hangman</h2>
-                    <p>coming soon: hangman game</p>
+                    <p>coming soon: hangman game, coded in php</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_3">view</div>
 
@@ -170,7 +170,7 @@
             <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4">
                 <div class="work_item_label" id="work_item_label_4">
                     <h2>Christmas Invaders</h2>
-                    <p>wallpaper for smashing magazine competition which was selected</p>
+                    <p>wallpaper for smashing magazine competition</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_4">view</div>
 
