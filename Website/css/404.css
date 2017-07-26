@@ -10,29 +10,30 @@ section {
     height: 100%;
 }
 
-.text {
+#textblock {
     width: 100%;
     display: block;
     margin: 0.5em auto 0 auto;
     font-family: Titilium, Arial;
-    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    color: #9b0408;
+    color: #e7e7e7;
+    position: fixed;
+    top: 10vh;
 }
 
 #text1 {
     width: 100%;
     margin-bottom: 0em;
-    font-size: 7.5em;
-    position: relative;
+    font-size: 5em;
 }
 
 #text2, #terug_haar_home {
-    max-width: 340px;
-    -webkit-transform: translateZ(20em);
-    transform: translateZ(20em);
+    top: 20vh;
+    font-size: 1.2em;
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 .cloud1 {
@@ -528,13 +529,6 @@ section {
     animation: sprite_dude 4s steps(32) infinite;
 }
 
-.fourohfour_flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
 @-webkit-keyframes drift1 {
