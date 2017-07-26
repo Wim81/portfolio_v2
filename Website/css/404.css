@@ -31,7 +31,7 @@ section {
 }
 
 #text2 {
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-size: 1.2em;
     max-width: 140px;
     margin: 0 auto;
@@ -639,4 +639,42 @@ section {
     }
 }
 
+
+/* media query voor correctie positie ballon  */
+@media (max-width: 400px) {
+    #total_balloon {
+        position: relative;
+        right: 20px
+    }
+}
+@media (max-width: 380px) {
+    #total_balloon {
+        position: relative;
+        right: 30px
+    }
+}
+@media (max-width: 360px) {
+    #total_balloon {
+        position: relative;
+        right: 40px
+    }
+}
+@media (max-width: 340px) {
+    #total_balloon {
+        position: relative;
+        right: 50px
+    }
+}
+@media (max-width: 320px) {
+    #total_balloon {
+        position: relative;
+        right: 60px
+    }
+}
+@media (max-width: 300px) {
+    #total_balloon {
+        position: relative;
+        right: 70px
+    }
+}
 
