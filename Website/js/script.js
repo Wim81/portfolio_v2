@@ -360,7 +360,7 @@ $(document).ready(function() {
 
     $("#work_item_1").hover(function() {
         $("#work_item_1").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef.jpg')", cursor: "pointer"});
-        $("#work_item_label_1").css({height: "28%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
+        $("#work_item_label_1").css({height: "45%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
         $("#work_item_link_1").css({opacity: "1"});
         $("#work_item_1 p").hide(1000);
 
@@ -375,7 +375,7 @@ $(document).ready(function() {
 
     $("#work_item_2").hover(function() {
         $("#work_item_2").css({backgroundImage: "url('images/work/preview_2_danysstyle.jpg')", cursor: "pointer"});
-        $("#work_item_label_2").css({height: "28%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
+        $("#work_item_label_2").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
         $("#work_item_link_2").css({opacity: "1"});
         $("#work_item_2 p").hide(1000);
 
@@ -390,7 +390,7 @@ $(document).ready(function() {
 
     $("#work_item_3").hover(function() {
         $("#work_item_3").css({backgroundImage: "url('images/work/preview_3_hangman.jpg')", cursor: "pointer"});
-        $("#work_item_label_3").css({height: "28%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
+        $("#work_item_label_3").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
         $("#work_item_link_3").css({opacity: "1"});
         $("#work_item_3 p").hide(1000);
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
 
     $("#work_item_4").hover(function() {
         $("#work_item_4").css({backgroundImage: "url('images/work/preview_4_christmasinvaders.jpg')", cursor: "pointer"});
-        $("#work_item_label_4").css({height: "28%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
+        $("#work_item_label_4").css({height: "45%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
         $("#work_item_link_4").css({opacity: "1"});
         $("#work_item_4 p").hide(1000);
 
@@ -420,7 +420,7 @@ $(document).ready(function() {
 
     $("#work_item_5").hover(function() {
         $("#work_item_5").css({backgroundImage: "url('images/work/preview_5_404.jpg')", cursor: "pointer"});
-        $("#work_item_label_5").css({height: "28%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
+        $("#work_item_label_5").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)"});
         $("#work_item_link_5").css({opacity: "1"});
         $("#work_item_5 p").hide(1000);
 
