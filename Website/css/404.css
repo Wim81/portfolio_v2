@@ -604,5 +604,38 @@ section {
 
 
 
+#link_return404 {
+    width: 210px;
+    position: absolute;
+    bottom: -3px;
+    left: calc((100vw - 210px)/2);
+    display: block;
+}
+
+#link_404_shape {
+    fill: #9b0408;
+    cursor: pointer;
+    stroke-width: 1.6px;
+}
+
+#whiteline_404 {
+    width: 185.5px;
+    bottom: 20px;
+    left: calc(((100vw - 186px)/2) - 1px);
+    display: block;
+}
+
+/*  media query vanaf 640 pixels  */
+@media (min-width: 640px) {
+    #link_return404 {
+        width: 420px;
+        bottom: -40px;
+        left: calc((100vw - 420px)/2);
+    }
+    #whiteline_404 {
+        width: 373px;
+        left: calc(((100vw - 373px)/2) + 1px);
+    }
+}
 
 

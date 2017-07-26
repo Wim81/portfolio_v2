@@ -120,17 +120,17 @@
 
 <nav>
 
-    <!--  contact link  -->
-    <svg version="1.1" id="link_contact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" id="link_return404" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 147.2 77.4" style="enable-background:new 0 0 147.2 77.4;" xml:space="preserve">
 
-        <a class="nav nav_contact" xlink:href="#">
-            <polygon id="link_contact_shape" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
-            <text id="nav_contact_text" x="58" y="50">return</text>
-            <div class="whiteline" id="whiteline_contact"></div>
+        <a class="nav nav_404" xlink:href="http://www.wimverpoorten.com">
+            <polygon id="link_404_shape" points="134.2,77.3 145.5,35 22.4,2 2.2,77.3 "/>
+            <text id="nav_404_text" x="58" y="50">return</text>
+            <div class="whiteline" id="whiteline_404"></div>
         </a>
 
     </svg>
+
 
 </nav>
 
@@ -139,6 +139,7 @@
 <script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/404.js"></script>
 
 </body>
 
