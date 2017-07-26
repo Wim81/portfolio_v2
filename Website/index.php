@@ -124,7 +124,7 @@
 </nav>
 
 
-<div class="sectiondiv section_work">
+<div class="sectiondiv section_work" id="section_work">
     <div class="sectiondiv_inner section_work_inner">
 
         <img src="images/logo_white1.png" class="logo">
@@ -176,14 +176,14 @@
 
             </a>
 
-            <div class="work_item content_work_element" id="work_item_5">
+            <a href="404.php" target="_blank"  class="work_item content_work_element" id="work_item_5">
                 <div class="work_item_label" id="work_item_label_5">
                     <h2><em>404</em> Page</h2>
                     <p>404 page for this website</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_5">view</div>
 
-            </div>
+            </a>
 
         </div>
 
