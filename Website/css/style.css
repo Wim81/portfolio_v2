@@ -68,7 +68,8 @@ body {
     52%   {opacity:0; transform:translateX(0px);}
     52.5%   {opacity:1; transform:translateX(0px);}
     53%   {opacity:0; transform:translateX(0px);}
-    78%   {opacity:0; transform:translateX(0px);}
+    70%   {opacity:0; transform:translateX(0px);}
+    78%   {opacity:1; transform:translateX(0px);}
     78.5%   {opacity:1; transform:translateX(0px);}
     81.5%   {opacity:1; transform:translateX(5px);}
     84.5%   {opacity:1; transform:translateX(0px);}
