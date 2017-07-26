@@ -866,20 +866,6 @@ em {
 }
 
 
-/*  media query vanaf 1280 pixels  */
-@media (min-width: 1280px) {
-    .content_about {
-        margin: 40px;
-    }
-
-    #about_text_1, #about_text_2 {
-        font-size: 1.2em;
-        line-height: 1.6em;
-    }
-}
-
-
-
 /*  media query vanaf 1400 pixels  */
 @media (min-width: 1400px) {
     .content_about {
