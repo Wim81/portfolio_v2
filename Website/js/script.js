@@ -486,4 +486,11 @@ $(document).ready(function() {
         smoothscroll: true,
     });
 
+
+    /*  submit form using the send button  */
+
+    $( "#link_send" ).click(function() {
+        $( ".contact_form" ).submit();
+    });
+
 });

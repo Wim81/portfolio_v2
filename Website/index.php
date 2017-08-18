@@ -213,7 +213,7 @@
                     <input type="text" placeholder="name" class="form_item" id="name" name="name">
                     <input type="text" placeholder="email" class="form_item" id="email" name="email">
                     <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
-                    <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
+                    <button type="submit" name="submit" id="submit_form" value="submit" class="hidden">send awaaay</button>
 
                 </form>
             </div>  <!--  einde contact inner section  -->
