@@ -43,10 +43,13 @@ $(document).ready(function() {
 			// Make sure that the formMessages div has the 'error' class.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
+            $(formMessages).css('opacity', "1");
+            $(formMessages).show();
 
 			// Set the message text.
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
+                $(formMessages).fadeOut(5000);
 			} else {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
