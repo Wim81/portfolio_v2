@@ -25,6 +25,7 @@ $(document).ready(function() {
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
+            $(formMessages).css('border-color', "#084E96");
             $(formMessages).css('opacity', "1");
             $(formMessages).show();
 
@@ -43,6 +44,7 @@ $(document).ready(function() {
 			// Make sure that the formMessages div has the 'error' class.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
+            $(formMessages).css('border-color', "#9b0408");
             $(formMessages).css('opacity', "1");
             $(formMessages).show();
 

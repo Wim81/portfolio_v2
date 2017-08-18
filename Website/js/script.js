@@ -323,6 +323,9 @@ $(document).ready(function() {
             $(this).css("z-index", "0");
             next();
         });
+        setTimeout(function() { $('#name').val(''); }, 3000);
+        setTimeout(function() { $('#email').val(''); }, 3000);
+        setTimeout(function() { $('#message').val(''); }, 3000);
     });
 
 

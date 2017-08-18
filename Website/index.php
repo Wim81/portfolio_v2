@@ -191,6 +191,9 @@
 </div>
 
 <div class="sectiondiv section_contact">
+
+    <div id="form-messages"></div>
+
     <div class="sectiondiv_inner section_contact_inner reset_links">
 
         <img src="images/logo_white1.png" class="logo">
@@ -202,42 +205,17 @@
 
         <div class="content_contact_wrapper">
             <div class="content_contact">
-            <div id="form-messages"></div>
-            <form class="contact_form" action ="ajax/mailer.php" method="post">
 
-                <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
+                <form class="contact_form" action ="ajax/mailer.php" method="post">
 
-                <input type="text" placeholder="name" class="form_item" id="name" name="name">
-                <input type="text" placeholder="email" class="form_item" id="email" name="email">
-                <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
-                <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
-                <?php /* var_dump($_POST) ;
+                    <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
 
-                $name = $_POST['name'];
-                $email = $_POST['email'];
-                $message = $_POST['message'];
+                    <input type="text" placeholder="name" class="form_item" id="name" name="name">
+                    <input type="text" placeholder="email" class="form_item" id="email" name="email">
+                    <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
+                    <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
 
-                if ( !empty($name) || $name <> null ) {
-                    echo "de naam die is opgetekend is " . $name;
-                } else {
-                    echo "there is no name!";
-                }
-
-                if ($email) {
-                    echo "de email die is opgetekend is " . $email;
-                } else {
-                    echo "there is no email!";
-                }
-
-                if ($message) {
-                    echo "de message die is opgetekend is " . $message;
-                } else {
-                    echo "there is no message!";
-                }
-
-                    */
-                ?>
-            </form>
+                </form>
             </div>  <!--  einde contact inner section  -->
 
         </div>  <!--  einde van de wrapper  -->
