@@ -545,27 +545,11 @@ a:active{
 }
 
 .success {
-    opacity: 1;
     color: greenyellow;
-    -webkit-animation: seconds 1.0s forwards;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 5s;
-    animation: seconds 1.0s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 5s;
-    position: relative;
 }
 
 .error {
-    opacity: 1;
     color: indianred;
-    -webkit-animation: seconds 1.0s forwards;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 5s;
-    animation: seconds 1.0s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 5s;
-    position: relative;
 }
 
 @-webkit-keyframes seconds {

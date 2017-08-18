@@ -25,9 +25,14 @@ $(document).ready(function() {
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
+            $(formMessages).css('opacity', "1");
+            $(formMessages).show();
+
 
 			// Set the message text.
 			$(formMessages).text(response);
+            $(formMessages).fadeOut(5000);
+
 
 			// Clear the form.
 			$('#name').val('');
