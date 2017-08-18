@@ -202,14 +202,15 @@
 
         <div class="content_contact_wrapper">
             <div class="content_contact">
-            <form class="contact_form" action ="" method="post">
+            <div id="form-messages"></div>
+            <form class="contact_form" action ="ajax/mailer.php" method="post">
 
                 <p id="contact_intro">Got a question? Want a website? Worried about global warming? I like hearing from you, so just drop me a message....</p>
 
                 <input type="text" placeholder="name" class="form_item" id="name" name="name">
                 <input type="text" placeholder="email" class="form_item" id="email" name="email">
                 <textarea placeholder="your message" class="form_item" id="message" name="message"></textarea>
-                <!-- <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button> -->
+                <button type="submit" name="submit" id="submit-form" value="submit" class="hidden">send awaaay</button>
                 <?php /* var_dump($_POST) ;
 
                 $name = $_POST['name'];
@@ -234,7 +235,7 @@
                     echo "there is no message!";
                 }
 
-                */
+                    */
                 ?>
             </form>
             </div>  <!--  einde contact inner section  -->
@@ -297,6 +298,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/app.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/jquery.touchSwipe.min.js"></script>
 
