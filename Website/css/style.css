@@ -544,12 +544,23 @@ a:active{
     margin: 20px;
 }
 
+#form-messages {
+    position: fixed;
+    width: 200px;
+    top: 40px;
+    right: 50%;
+    margin-right: -100px;
+    text-align: center;
+    padding: 20px;
+    font-family: NOVA;
+}
+
 .success {
-    color: greenyellow;
+    background-color: greenyellow;
 }
 
 .error {
-    color: indianred;
+    background-color: indianred;
 }
 
 @-webkit-keyframes seconds {
