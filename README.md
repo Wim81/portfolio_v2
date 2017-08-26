@@ -30,12 +30,7 @@
 6. programmeren maar (html/css/js/php/db)
 
     to do's:
-    * work section item terug van scratch maken en gewoon zelf in elkaar flansen (wel in lijn met gevonden voorbeeld), eerder dan te blijven morrelen aan hetgeen reeds werd geprobeerd
-    * maak 4 items (site Jef, "coming soon" site Dany, "coming soon" Galgje, 404)
-    * mail functionaliteit laten werken in contact section (kijk ook eens hoe je dat bij site Jef gedaan hebt)
-    * 404 verder maken
-
-7. zet erin: site Jef, site Dany (coming soon), Galgje, 404, Christmas Invaders
-
-
-
+    * MOBILE top bar issue nog oplossen
+    * tekst About nog lichtjes aanpassen
+    * swipe functionaliteit voorzien
+    * zien dat er geen witruimte meer is bij swipen
